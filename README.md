@@ -1,6 +1,8 @@
 # Lullabeam
 
 Lullabeam runs on an Raspberry Pi 3 and uses [mpv](https://mpv.io/) to play songs off a USB stick for a predetermined amount of time so my kids can fall asleep.
+It can also be used as a Pomodoro timer.
+It never actually stops a song when the time runs out; it just checks the timer when deciding whether to start another song.
 
 This is a personal project and works for me; it has the features I want and works on the hardware I have.
 I'm not interested in contributions and won't have time to help you use it, but feel free to fork it and do what you like with the code. :)

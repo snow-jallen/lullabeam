@@ -1,8 +1,11 @@
 defmodule Lullabeam.DJ do
   @mpv_socket_path "/tmp/mpv.sock"
   @navigation_cmds [:next_track, :prev_track, :next_folder, :prev_folder]
-  @nap_time 60 * 20
-  @bed_time 60 * 45
+  @timers %{
+    nap: 60 * 20,
+    bed: 60 * 45,
+    pom: 60 * 25
+  }
 
   use GenServer
   use Lullabeam.Log
@@ -111,15 +114,9 @@ defmodule Lullabeam.DJ do
   end
 
   @impl true
-  def handle_call(:set_nap_timer, _from, state) do
-    # TODO also update state with play time starting now
-    {:reply, :ok, Map.put(state, :max_seconds, @nap_time)}
-  end
-
-  @impl true
-  def handle_call(:set_bed_timer, _from, state) do
-    # TODO also update state with play time starting now
-    {:reply, :ok, Map.put(state, :max_seconds, @bed_time)}
+  def handle_call({:set_timer, kind}, _from, state) do
+    log("setting #{kind} timer")
+    {:reply, :ok, Map.put(state, :max_seconds, Map.fetch!(@timers, kind))}
   end
 
   @impl true

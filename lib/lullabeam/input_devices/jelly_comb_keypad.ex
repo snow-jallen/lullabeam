@@ -25,7 +25,7 @@ defmodule Lullabeam.InputDevices.JellyCombKeypad do
   Mapping:
 
   ┌───┐ ┌───┐ ┌───┐ ┌───┐
-  │ x │ │🌞 │ │🌙 │ │ ? │
+  │ x │ │🌞 │ │🌙 │ │🍅 │
   └───┘ └───┘ └───┘ └───┘
   ┌───┐ ┌───┐ ┌───┐ ┌───┐
   │ ⟵ │ │ ⟶ │ │ ? │ │ ? │
@@ -42,6 +42,7 @@ defmodule Lullabeam.InputDevices.JellyCombKeypad do
 
   🌞 = nap timer
   🌙 = bed timer
+  🍅 = pomodoro timer
   ⟵  = previous folder
   ⟶  = next folder
   ⏪ = previous track
@@ -57,8 +58,9 @@ defmodule Lullabeam.InputDevices.JellyCombKeypad do
     "HID 04d9:1203"
   end
 
-  def interpret({:ev_key, :key_kpslash, 0 = _keyup}), do: {:cmd, :set_nap_timer}
-  def interpret({:ev_key, :key_kpasterisk, 0 = _keyup}), do: {:cmd, :set_bed_timer}
+  def interpret({:ev_key, :key_kpslash, 0 = _keyup}), do: {:cmd, {:set_timer, :nap}}
+  def interpret({:ev_key, :key_kpasterisk, 0 = _keyup}), do: {:cmd, {:set_timer, :bed}}
+  def interpret({:ev_key, :key_backspace, 0 = _keyup}), do: {:cmd, {:set_timer, :pom}}
   def interpret({:ev_key, :key_kp7, 0 = _keyup}), do: {:cmd, :prev_folder}
   def interpret({:ev_key, :key_kp8, 0 = _keyup}), do: {:cmd, :next_folder}
   def interpret({:ev_key, :key_kp4, 0 = _keyup}), do: {:cmd, :prev_track}
@@ -68,6 +70,6 @@ defmodule Lullabeam.InputDevices.JellyCombKeypad do
 
   # Unassigned:
   # [:key_kp0, :key_kp1, :key_kp2, :key_kp3, :key_kp9, :key_kpdot,
-  # :key_numlock, :key_backspace, :key_kpenter, key_kpminus]
+  # :key_numlock,  :key_kpenter, key_kpminus]
   def interpret(_e), do: :unknown
 end
