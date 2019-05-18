@@ -15,7 +15,6 @@ defmodule Lullabeam.RPiSetup do
   def init(state) do
     wait_for_sound_card_to_be_enabled()
     set_audio_output_to_headphone_jack()
-    set_volume_to_headphone_safe_level()
     {:ok, state}
   end
 
@@ -42,10 +41,5 @@ defmodule Lullabeam.RPiSetup do
   defp set_audio_output_to_headphone_jack() do
     {_ret_string, 0} = System.cmd("amixer", ["cset", "numid=3", "1"])
     log("Set audio to headphone jack")
-  end
-
-  defp set_volume_to_headphone_safe_level() do
-    {_ret_string, 0} = System.cmd("amixer", ["sset", "PCM", "70%"])
-    log("Set volume to headphone safe level")
   end
 end
