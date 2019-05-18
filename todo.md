@@ -10,3 +10,7 @@
 
     gregmefford   [1 hour ago]
     Yeah it would be really handy if SystemRegistry had some better APIs for exploring what kinds of state/messages are available on a running system.
+
+-----
+
+Why can't I properly `mount` and `unmount` and `mount` again successfully?
