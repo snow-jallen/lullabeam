@@ -50,6 +50,9 @@ Plug in a screen to the HDMI port to see debugging output, and plug in a full US
 
 ## TODO
 
+- Better "wake" and "sleep" modes:
+  - Dedicated "daytime mode" button: no timer or long timer, plays from daytime folder
+  - Nap and night buttons also cause playback to be from sleep folder
 - Enable hot swapping of USB sticks
 - Maybe https://hexdocs.pm/nerves_runtime/Nerves.Runtime.html#poweroff/0 after an idle period
 - See if keystrokes can be ignored by shell - https://github.com/LeToteTeam/input_event/issues/8
