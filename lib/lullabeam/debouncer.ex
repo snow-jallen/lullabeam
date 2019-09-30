@@ -11,7 +11,7 @@ defmodule Lullabeam.Debouncer do
     debounce_ms =
       case env do
         # gives time to tinker from command line
-        :host -> 2_000
+        :host -> 1_000
         # hardware input on the device is faster
         _target -> 200
       end
