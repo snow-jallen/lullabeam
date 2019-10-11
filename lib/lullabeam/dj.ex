@@ -52,7 +52,7 @@ defmodule Lullabeam.DJ do
 
     {:ok, _port = play_track(track, state.env)}
 
-    {:reply, :ok, Map.put(state, :playback, %{state: :playing, started_playing: now()})}
+    {:reply, :ok, mark_started_playing_now(state)}
   end
 
   @impl true
@@ -116,7 +116,15 @@ defmodule Lullabeam.DJ do
   @impl true
   def handle_call({:set_timer, kind}, _from, state) do
     log("setting #{kind} timer")
-    {:reply, :ok, Map.put(state, :max_seconds, Map.fetch!(@timers, kind))}
+    new_state = case state do
+      %{playback: %{state: :playing}} ->
+        mark_started_playing_now(state)
+      _ ->
+        state
+    end
+    |> Map.put(:max_seconds, Map.fetch!(@timers, kind))
+
+    {:reply, :ok, new_state}
   end
 
   @impl true
@@ -312,6 +320,12 @@ defmodule Lullabeam.DJ do
     state
     |> Map.put(:current_folder, state.current_folder - 1)
     |> Map.put(:current_track, 0)
+  end
+
+  defp mark_started_playing_now(state) do
+    new_state = Map.put(state, :playback, %{state: :playing, started_playing: now()})
+    log(inspect(new_state))
+    new_state
   end
 
   defp mpv_path(:host), do: "/usr/local/homebrew/bin/mpv"
