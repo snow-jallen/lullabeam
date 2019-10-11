@@ -7,7 +7,7 @@ defmodule Lullabeam.LibraryMonitor do
   @moduledoc """
   Searches for music library in expected location(s) and delays startup until
   it is found.
-  
+
   TODO: After startup, check periodically to see if USB stick is still
   inserted, and crash if not.  The logic attempting this below doesn't
   actually work, presumably because the USB stick doesn't get

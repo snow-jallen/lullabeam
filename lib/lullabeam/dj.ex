@@ -4,7 +4,7 @@ defmodule Lullabeam.DJ do
   @timers %{
     nap: 60 * 20,
     bed: 60 * 45,
-    pom: 60 * 25
+    wake: 60 * 60
   }
 
   use GenServer
@@ -36,6 +36,7 @@ defmodule Lullabeam.DJ do
     updated_state =
       state
       |> Map.put(:library, library)
+      |> Map.put(:current_mode, :bed)
       |> Map.put(:current_folder, 0)
       |> Map.put(:current_track, 0)
       |> Map.put(:max_seconds, @nap_time)
@@ -48,7 +49,13 @@ defmodule Lullabeam.DJ do
   def handle_call(:play_or_pause, _from, %{playback: %{state: :stopped}} = state) do
     log("play or pause - was stopped")
 
-    {:ok, track} = Library.get_track(state.library, state.current_folder, state.current_track)
+    {:ok, track} =
+      Library.get_track(
+        state.library,
+        playlist_category(state.current_mode),
+        state.current_folder,
+        state.current_track
+      )
 
     {:ok, _port = play_track(track, state.env)}
 
@@ -114,17 +121,36 @@ defmodule Lullabeam.DJ do
   end
 
   @impl true
-  def handle_call({:set_timer, kind}, _from, state) do
-    log("setting #{kind} timer")
-    new_state = case state do
-      %{playback: %{state: :playing}} ->
-        mark_started_playing_now(state)
-      _ ->
-        state
-    end
-    |> Map.put(:max_seconds, Map.fetch!(@timers, kind))
+  def handle_call({:set_mode, new_mode}, _from, state) do
+    log("setting mode #{new_mode}")
+
+    new_state =
+      case state do
+        %{playback: %{state: :playing}} ->
+          mark_started_playing_now(state)
+
+        _ ->
+          state
+      end
+      |> maybe_switch_playlist_category(new_mode)
+      |> Map.put(:current_mode, new_mode)
+      |> Map.put(:max_seconds, Map.fetch!(@timers, new_mode))
+
+    IO.inspect(new_state)
 
     {:reply, :ok, new_state}
+  end
+
+  defp maybe_switch_playlist_category(state, new_mode) do
+    if playlist_category(state.current_mode) == playlist_category(new_mode) do
+      state
+    else
+      ensure_mpv_stopped(state.env)
+
+      state
+      |> navigate(:next_track)
+      |> Map.put(:navigating, true)
+    end
   end
 
   @impl true
@@ -168,13 +194,22 @@ defmodule Lullabeam.DJ do
     else
       log("keep playing! elapsed #{elapsed_seconds} limit #{state.max_seconds}")
 
-      {:ok, track} = Library.get_track(state.library, state.current_folder, state.current_track)
+      {:ok, track} =
+        Library.get_track(
+          state.library,
+          playlist_category(state.current_mode),
+          state.current_folder,
+          state.current_track
+        )
 
       {:ok, _port = play_track(track, state.env)}
 
       state
     end
   end
+
+  defp playlist_category(:wake), do: :wake
+  defp playlist_category(_), do: :sleep
 
   defp react_to_mpv_termination(%{playback: %{state: playback_state}} = state)
        when playback_state != :playing do
@@ -323,9 +358,7 @@ defmodule Lullabeam.DJ do
   end
 
   defp mark_started_playing_now(state) do
-    new_state = Map.put(state, :playback, %{state: :playing, started_playing: now()})
-    log(inspect(new_state))
-    new_state
+    Map.put(state, :playback, %{state: :playing, started_playing: now()})
   end
 
   defp mpv_path(:host), do: "/usr/local/homebrew/bin/mpv"

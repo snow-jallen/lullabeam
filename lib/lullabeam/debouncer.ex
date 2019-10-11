@@ -16,7 +16,9 @@ defmodule Lullabeam.Debouncer do
         _target -> 200
       end
 
-    GenServer.start_link(__MODULE__, %{status: :listening, cmd: nil, debounce_ms: debounce_ms, env: env},
+    GenServer.start_link(
+      __MODULE__,
+      %{status: :listening, cmd: nil, debounce_ms: debounce_ms, env: env},
       name: __MODULE__
     )
   end
@@ -38,6 +40,7 @@ defmodule Lullabeam.Debouncer do
     if s == :pending do
       play_error_sound(state.env)
     end
+
     {:reply, {:error, :slow_down_buddy}, set_blocking(state), state.debounce_ms}
   end
 

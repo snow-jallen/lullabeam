@@ -17,6 +17,7 @@ defmodule Lullabeam.RuntimeSupervisor do
       {Lullabeam.StartupSounder, env}
     ]
   end
+
   def children(:lullabeam_rpi3 = env) do
     [
       {Lullabeam.LibraryMonitor, env},

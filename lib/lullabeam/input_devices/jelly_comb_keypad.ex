@@ -25,7 +25,7 @@ defmodule Lullabeam.InputDevices.JellyCombKeypad do
   Mapping:
 
   ┌───┐ ┌───┐ ┌───┐ ┌───┐
-  │ x │ │🌞 │ │🌙 │ │🍅 │
+  │ x │ │🌙 │ │🌕 │ │🌞 │
   └───┘ └───┘ └───┘ └───┘
   ┌───┐ ┌───┐ ┌───┐ ┌───┐
   │ ⟵ │ │ ⟶ │ │ ? │ │ ? │
@@ -40,9 +40,9 @@ defmodule Lullabeam.InputDevices.JellyCombKeypad do
   │ x │ │ x │ │ ? │ │   │
   └───┘ └───┘ └───┘ └───┘
 
-  🌞 = nap timer
-  🌙 = bed timer
-  🍅 = pomodoro timer
+  🌙 = nap mode
+  🌕 = bed mode
+  🌞 = day mode
   ⟵  = previous folder
   ⟶  = next folder
   ⏪ = previous track
@@ -58,9 +58,9 @@ defmodule Lullabeam.InputDevices.JellyCombKeypad do
     "HID 04d9:1203"
   end
 
-  def interpret({:ev_key, :key_kpslash, 0 = _keyup}), do: {:cmd, {:set_timer, :nap}}
-  def interpret({:ev_key, :key_kpasterisk, 0 = _keyup}), do: {:cmd, {:set_timer, :bed}}
-  def interpret({:ev_key, :key_backspace, 0 = _keyup}), do: {:cmd, {:set_timer, :pom}}
+  def interpret({:ev_key, :key_kpslash, 0 = _keyup}), do: {:cmd, {:set_mode, :nap}}
+  def interpret({:ev_key, :key_kpasterisk, 0 = _keyup}), do: {:cmd, {:set_mode, :bed}}
+  def interpret({:ev_key, :key_backspace, 0 = _keyup}), do: {:cmd, {:set_mode, :wake}}
   def interpret({:ev_key, :key_kp7, 0 = _keyup}), do: {:cmd, :prev_folder}
   def interpret({:ev_key, :key_kp8, 0 = _keyup}), do: {:cmd, :next_folder}
   def interpret({:ev_key, :key_kp4, 0 = _keyup}), do: {:cmd, :prev_track}

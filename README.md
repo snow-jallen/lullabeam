@@ -9,8 +9,10 @@ I'm not interested in contributions and won't have time to help you use it, but 
 
 ## Features
 
-- "Nap" and "bed" timer settings; whenever a song ends, if the alloted time has run out, the next song doesn't play.
-- Supports changing folders, songs, and timer settings via a USB number pad (the specific one I have; make your own module under `Lullabeam.InputDevices` to use a different one). No screen is needed for operation (screens are bad for sleep).
+- Three playback modes, each with a timer. Whenever a song ends, if the allotted time has run out, the next song doesn't play.
+  - "Nap" and "bed" modes play from a "sleep" music folder
+  - "Day" mode plays from a "wake" music folder
+- Supports changing folders (within the current mode's folder), songs, and timer settings via a USB number pad (the specific one I have; make your own module under `Lullabeam.InputDevices` to use a different one). No screen is needed for operation (screens are bad for sleep).
 - Plays at a predetermined headphone-safe volume level; external speakers can be used to control volume.
 - Expects kids to push the buttons like crazy and ignores them until they calmly press one button at a time
 - Sets the device to use minimal power, since playing music is not CPU-intensive
@@ -50,9 +52,6 @@ Plug in a screen to the HDMI port to see debugging output, and plug in a full US
 
 ## TODO
 
-- Better "wake" and "sleep" modes:
-  - Dedicated "daytime mode" button: long timer, plays from daytime folder
-  - Nap and night buttons also cause playback to be from sleep folder
 - Enable hot swapping of USB sticks
 - Maybe https://hexdocs.pm/nerves_runtime/Nerves.Runtime.html#poweroff/0 after an idle period
 - See if keystrokes can be ignored by shell - https://github.com/LeToteTeam/input_event/issues/8

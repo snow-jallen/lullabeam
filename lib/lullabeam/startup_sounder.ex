@@ -9,8 +9,8 @@ defmodule Lullabeam.StartupSounder do
   def child_spec(env) do
     %{
       id: __MODULE__,
-      start: { __MODULE__, :start_link, [env]},
-      restart: :transient,
+      start: {__MODULE__, :start_link, [env]},
+      restart: :transient
     }
   end
 

@@ -15,6 +15,7 @@ defmodule Lullabeam.SoundEffects do
   defp file_for(:startup), do: "startup.wav"
   defp file_for(:error), do: "error.wav"
 
-  defp effects_player(:host), do: "/usr/local/homebrew/bin/play" # `brew install sox`
+  # `brew install sox`
+  defp effects_player(:host), do: "/usr/local/homebrew/bin/play"
   defp effects_player(_target), do: "/usr/bin/aplay"
 end

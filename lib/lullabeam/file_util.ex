@@ -7,11 +7,30 @@ defmodule Lullabeam.FileUtil do
 
     files =
       Path.wildcard("#{base_dir}/**/*.{#{Enum.join(@music_file_extensions, ",")}}")
-      |> Enum.group_by(&Path.dirname/1)
-      |> Map.to_list()
-      |> Enum.reject(fn {_folder_name, tracks} -> Enum.empty?(tracks) end)
+      |> organize(base_dir)
 
     {:ok, files}
+  end
+
+  def organize(file_list, base_dir) do
+    file_list
+    |> Enum.group_by(&Path.dirname/1)
+    |> Enum.reject(fn {_folder_name, tracks} -> Enum.empty?(tracks) end)
+    |> Enum.reduce(%{sleep: [], wake: []}, fn {folder_name, files}, acc ->
+      subfolder = String.trim_leading(folder_name, base_dir)
+
+      category =
+        if String.match?(subfolder, ~r{\A\/?sleep}) do
+          :sleep
+        else
+          :wake
+        end
+
+      existing = Map.get(acc, category)
+      Map.put(acc, category, [{folder_name, files} | existing])
+    end)
+    |> Enum.map(fn {k, v} -> {k, Enum.reverse(v)} end)
+    |> Enum.into(Map.new())
   end
 
   defp root_music_dir_for(:host = env) do

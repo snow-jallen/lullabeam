@@ -47,7 +47,12 @@ defmodule Lullabeam.MixProject do
       {:input_event, "~> 0.2.1", targets: :lullabeam_rpi3},
 
       # compiled with mpv
-      {:lullabeam_rpi3, git: "git@github.com:nathanl/lullabeam_rpi3.git", tag: "v1.6.2", runtime: false, nerves: [compile: false], targets: :lullabeam_rpi3}
+      {:lullabeam_rpi3,
+       git: "git@github.com:nathanl/lullabeam_rpi3.git",
+       tag: "v1.6.2",
+       runtime: false,
+       nerves: [compile: false],
+       targets: :lullabeam_rpi3}
 
       # compiled with mpv
       # {:lullabeam_rpi3, path: "/Users/nathanl/code/experiments/lullabeam_rpi3", runtime: false, nerves: [compile: true], targets: :lullabeam_rpi3}

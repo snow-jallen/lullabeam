@@ -9,8 +9,9 @@ defmodule Lullabeam do
   def prev_track, do: cmd(:prev_track)
   def next_folder, do: cmd(:next_folder)
   def prev_folder, do: cmd(:prev_folder)
-  def set_bed_timer(:nap), do: cmd({:set_timer, :bed})
-  def set_nap_timer(:nap), do: cmd({:set_timer, :nap})
+  def set_mode(:nap), do: cmd({:set_mode, :nap})
+  def set_mode(:bed), do: cmd({:set_mode, :bed})
+  def set_mode(:wake), do: cmd({:set_mode, :wake})
 
   defp cmd(cmd), do: Lullabeam.Debouncer.debounce(cmd)
 end
