@@ -23,22 +23,30 @@ I'm not interested in contributions and won't have time to help you use it, but 
 
 "FAT" format seems to work well to be readable on the Pi. Eg, from MacOS 10.14, use Disk Utility format a USB thumb drive as a "master boot record" in format "MS-DOS (FAT)".
 
-The drive must contain a `music` folder. In development, `dev_music` under the project folder will be used; put whatever you want there, as it's ignored by Git.
-
+The drive must contain a `music` folder.
+The `music` folder should contain `sleep` and `wake` folders.
 Each bottom-level folder under the general music folder will be treated as a playlist.
 Eg, with music files arranged like this, the playlists would be "lullabies", "jazz/smooth" and "jazz/rough".
 
     ▾ music/
-      ▾ lullabies/
-        sleepytimes.mp3
-        snoozely.ogg
-      ▾ jazz/
-        ▾ smooth/
-          buttery.mp3
-          frictionless.m4a
-        ▾ rough/
-          prickly.aac
-          scratchy.flac
+      ▾ sleep/
+        ▾ lullabies/
+          sleepytimes.mp3
+          snoozely.ogg
+        ▾ sounds/
+          ocean.mp3
+          crickets.flac
+      ▾ wake/
+        ▾ jazz/
+          ▾ smooth/
+            buttery.mp3
+            frictionless.m4a
+          ▾ rough/
+            prickly.aac
+            scratchy.flac
+
+In development, `dev_music` under the project folder will be used as if it were a thumb drive.
+Files there are ignored in `.gitignore`.
 
 ## Logging
 
