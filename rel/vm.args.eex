@@ -5,7 +5,7 @@
 ##  for read only filesystem.
 
 # -name lullabeam@0.0.0.0
--setcookie axch5cgi3iyhkxgo3ejewb7j2qnj5nt4qyy2742tndoybyjxxfh6gzln6ojkhh7l
+-setcookie <%= @release.options[:cookie] %>
 
 ## Use Ctrl-C to interrupt the current shell rather than invoking the emulator's
 ## break handler and possibly exiting the VM.
