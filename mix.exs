@@ -1,16 +1,19 @@
 defmodule Lullabeam.MixProject do
   use Mix.Project
+  @app :lullabeam
 
   def project do
     [
-      app: :lullabeam,
+      app: @app,
       version: "0.1.0",
       elixir: "~> 1.6",
-      archives: [nerves_bootstrap: "~> 1.0"],
+      archives: [nerves_bootstrap: "~> 1.6"],
       start_permanent: Mix.env() == :prod,
       build_embedded: Mix.target() != :host,
       aliases: [loadconfig: [&bootstrap/1]],
-      deps: deps()
+      deps: deps(),
+      releases: [{@app, release()}],
+      preferred_cli_target: [run: :host, test: :host]
     ]
   end
 
@@ -20,6 +23,16 @@ defmodule Lullabeam.MixProject do
     # System.put_env("MIX_TARGET", "lullabeam_rpi3")
     Application.start(:nerves_bootstrap)
     Mix.Task.run("loadconfig", args)
+  end
+
+  def release do
+    [
+      overwrite: true,
+      cookie: "#{@app}_cookie",
+      include_erts: &Nerves.Release.erts/0,
+      steps: [&Nerves.Release.init/1, :assemble],
+      strip_beams: Mix.env() == :prod
+    ]
   end
 
   # Run "mix help compile.app" to learn about applications.
@@ -34,8 +47,8 @@ defmodule Lullabeam.MixProject do
   defp deps do
     [
       # Typical Nerves stuff
-      {:nerves, "~> 1.4", runtime: false},
-      {:shoehorn, "~> 0.4"},
+      {:nerves, "~> 1.5.3", runtime: false},
+      {:shoehorn, "~> 0.6"},
       {:ring_logger, "~> 0.6"},
       # {:toolshed, "~> 0.2"},
       {:nerves_runtime, "~> 0.6", targets: :lullabeam_rpi3},
