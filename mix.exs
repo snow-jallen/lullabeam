@@ -62,7 +62,7 @@ defmodule Lullabeam.MixProject do
       # compiled with mpv
       {:lullabeam_rpi3,
        git: "git@github.com:nathanl/lullabeam_rpi3.git",
-       tag: "v1.6.2",
+       tag: "v1.10.0",
        runtime: false,
        nerves: [compile: false],
        targets: :lullabeam_rpi3}
