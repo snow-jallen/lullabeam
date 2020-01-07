@@ -136,8 +136,6 @@ defmodule Lullabeam.DJ do
       |> Map.put(:current_mode, new_mode)
       |> Map.put(:max_seconds, Map.fetch!(@timers, new_mode))
 
-    IO.inspect(new_state)
-
     {:reply, :ok, new_state}
   end
 
