@@ -37,9 +37,9 @@ defmodule Lullabeam.DJ do
       state
       |> Map.put(:library, library)
       |> Map.put(:current_mode, :bed)
+      |> Map.put(:max_seconds, @timers.bed)
       |> Map.put(:current_folder, 0)
       |> Map.put(:current_track, 0)
-      |> Map.put(:max_seconds, @nap_time)
       |> Map.put(:navigating, false)
 
     {:noreply, updated_state}
