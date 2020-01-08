@@ -82,6 +82,7 @@ defmodule Lullabeam.DJ do
     updated_state =
       state
       |> put_in([:playback, :state], :playing)
+      |> mark_started_playing_now()
 
     {:reply, :ok, updated_state}
   end
