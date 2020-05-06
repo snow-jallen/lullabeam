@@ -38,6 +38,7 @@ defmodule Lullabeam.InputWatcher do
 
   def handle_info({:input_event, _path, events}, %{device_adapter: device_adapter} = state) do
     for {:cmd, cmd} <- Enum.map(events, &device_adapter.interpret/1) do
+      log("InputWatcher handle_info #{inspect(cmd)}")
       debounce(cmd)
     end
 

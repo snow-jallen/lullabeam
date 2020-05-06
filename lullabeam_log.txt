@@ -1,0 +1,1276 @@
+13:33:30.485 [info] "Looking for an input device..."
+13:33:30.485 [info] "playing startup sound!"
+13:33:30.540 [info] "mpv stopped"
+13:33:30.882 [info] "Found input device Hengchangtong keyboard mouse!"
+13:34:45.411 [info] "playing startup sound!"
+13:34:45.411 [info] "Looking for an input device..."
+13:34:45.411 [info] "mpv stopped"
+13:34:45.804 [info] "Found input device Hengchangtong keyboard mouse!"
+13:34:50.501 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+13:34:51.502 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+13:34:51.504 [info] ["DJ executing cmd", :play_or_pause]
+13:34:51.505 [info] "play or pause - was stopped"
+13:34:51.512 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Blackbird.mp3"
+13:34:51.571 [info] ["mpv started", '1369\n']
+13:35:26.893 [info] ["debouncer got cmd that could be legit", :next_track]
+13:35:27.894 [info] ["debouncer actually_sending along cmd", :next_track]
+13:35:27.896 [info] ["DJ executing cmd", :next_track]
+13:35:27.991 [info] ["mpv not stopped yet", '1369\n']
+13:35:28.068 [info] ["mpv not stopped yet", [" 1369 ?        00:00:03 mpv"]]
+13:35:28.126 [info] "mpv stopped"
+13:35:28.127 [info] "keep playing! elapsed 37 limit 2700"
+13:35:28.127 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Chi chilichi_.mp3"
+13:35:28.162 [info] ["mpv started", '1409\n']
+13:40:17.102 [info] "playing startup sound!"
+13:40:17.102 [info] "Looking for an input device..."
+13:40:17.127 [info] "mpv stopped"
+13:40:17.598 [info] "Found input device Hengchangtong keyboard mouse!"
+13:41:33.187 [info] "playing startup sound!"
+13:41:33.187 [info] "Looking for an input device..."
+13:41:33.202 [info] "mpv stopped"
+13:41:33.636 [info] "Found input device Hengchangtong keyboard mouse!"
+13:41:39.916 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+13:41:40.918 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+13:41:40.919 [info] ["DJ executing cmd", :play_or_pause]
+13:41:40.919 [info] "play or pause - was stopped"
+13:41:40.931 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Blackbird.mp3"
+13:41:40.986 [info] ["mpv started", '1039\n']
+13:41:44.261 [info] ["debouncer got cmd that could be legit", :next_track]
+13:41:45.263 [info] ["debouncer actually_sending along cmd", :next_track]
+13:41:45.265 [info] ["DJ executing cmd", :next_track]
+13:41:45.353 [info] ["mpv not stopped yet", '1039\n']
+13:41:45.424 [info] ["mpv not stopped yet", [" 1039 ?        00:00:01 mpv"]]
+13:41:45.476 [info] "mpv stopped"
+13:41:45.477 [info] "keep playing! elapsed 5 limit 2700"
+13:41:45.477 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Chi chilichi_.mp3"
+13:41:45.511 [info] ["mpv started", '1063\n']
+13:41:47.332 [info] ["debouncer got cmd that could be legit", :next_track]
+13:41:48.333 [info] ["debouncer actually_sending along cmd", :next_track]
+13:41:48.335 [info] ["DJ executing cmd", :next_track]
+13:41:48.426 [info] ["mpv not stopped yet", '1063\n']
+13:41:48.479 [info] "mpv stopped"
+13:41:48.481 [info] "keep playing! elapsed 8 limit 2700"
+13:41:48.482 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Humpty Dumpty.mp3"
+13:41:48.518 [info] ["mpv started", '1083\n']
+13:44:20.718 [info] SIGTERM received - shutting down
+
+13:44:20.719 [info] "terminating DJ - ensuring mpv is stopped"
+13:44:32.259 [info] "playing startup sound!"
+13:44:32.259 [info] "Looking for an input device..."
+13:44:32.287 [info] "mpv stopped"
+13:44:32.745 [info] "Found input device Hengchangtong keyboard mouse!"
+13:45:22.427 [info] "playing startup sound!"
+13:45:22.427 [info] "Looking for an input device..."
+13:45:22.466 [info] "mpv stopped"
+13:45:22.915 [info] "Found input device Hengchangtong keyboard mouse!"
+13:49:56.194 [info] "Looking for an input device..."
+13:49:56.194 [info] "playing startup sound!"
+13:49:56.209 [info] "mpv stopped"
+13:49:56.622 [info] "Found input device Hengchangtong keyboard mouse!"
+13:54:15.202 [info] "playing startup sound!"
+13:54:15.202 [info] "Looking for an input device..."
+13:54:15.250 [info] "mpv stopped"
+13:54:15.682 [info] "Found input device Hengchangtong keyboard mouse!"
+13:54:56.138 [info] "playing startup sound!"
+13:54:56.138 [info] "Looking for an input device..."
+13:54:56.152 [info] "mpv stopped"
+13:54:56.561 [info] "Found input device Hengchangtong keyboard mouse!"
+13:54:59.479 [info] "InputWatcher handle_info :play_or_pause"
+13:54:59.480 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+13:55:00.482 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+13:55:00.483 [info] ["DJ executing cmd", :play_or_pause]
+13:55:00.484 [info] "play or pause - was stopped"
+13:55:00.495 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Blackbird.mp3"
+13:55:00.552 [info] ["mpv started", '1010\n']
+13:55:01.174 [info] "InputWatcher handle_info :next_folder"
+13:55:01.175 [info] ["debouncer got cmd that could be legit", :next_folder]
+13:55:02.177 [info] ["debouncer actually_sending along cmd", :next_folder]
+13:55:02.178 [info] ["DJ executing cmd", :next_folder]
+13:55:02.220 [info] "mpv stopped"
+13:55:02.221 [info] "keep playing! elapsed 2 limit 2700"
+13:55:02.221 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Blackbird.mp3"
+13:55:02.275 [info] ["mpv started", '1017\n']
+13:55:04.942 [info] "InputWatcher handle_info :next_folder"
+13:55:04.944 [info] ["debouncer got cmd that could be legit", :next_folder]
+13:55:05.946 [info] ["debouncer actually_sending along cmd", :next_folder]
+13:55:05.947 [info] ["DJ executing cmd", :next_folder]
+13:55:06.039 [info] ["mpv not stopped yet", '1017\n']
+13:55:06.128 [info] "mpv stopped"
+13:55:06.128 [info] "keep playing! elapsed 6 limit 2700"
+13:55:06.129 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Blackbird.mp3"
+13:55:06.163 [info] ["mpv started", '1037\n']
+13:55:10.326 [info] "InputWatcher handle_info :stop"
+13:55:10.329 [info] ["debouncer got cmd that could be legit", :stop]
+13:55:11.331 [info] ["debouncer actually_sending along cmd", :stop]
+13:55:11.332 [info] ["DJ executing cmd", :stop]
+13:55:11.424 [info] ["mpv not stopped yet", '1037\n']
+13:55:11.493 [info] "mpv stopped"
+13:55:15.806 [info] "InputWatcher handle_info :prev_folder"
+13:55:15.807 [info] ["debouncer got cmd that could be legit", :prev_folder]
+13:55:16.809 [info] ["debouncer actually_sending along cmd", :prev_folder]
+13:55:16.810 [info] ["DJ executing cmd", :prev_folder]
+13:55:20.226 [info] "InputWatcher handle_info {:set_mode, :wake}"
+13:55:20.229 [info] ["debouncer got cmd that could be legit", {:set_mode, :wake}]
+13:55:21.230 [info] ["debouncer actually_sending along cmd", {:set_mode, :wake}]
+13:55:21.232 [info] ["DJ executing cmd", {:set_mode, :wake}]
+13:55:21.232 [info] "setting mode wake"
+13:55:21.315 [info] "mpv stopped"
+13:55:24.126 [info] "InputWatcher handle_info :play_or_pause"
+13:55:24.128 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+13:55:25.129 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+13:55:25.130 [info] ["DJ executing cmd", :play_or_pause]
+13:55:25.131 [info] "play or pause - was stopped"
+13:55:25.132 [info] "will play track /home/pi/git/lullabeam/dev_music/wake/music/good/Anon._ Alla cazza.mp3"
+13:55:25.198 [info] ["mpv started", '1061\n']
+13:55:34.622 [info] "InputWatcher handle_info :prev_track"
+13:55:34.623 [info] ["debouncer got cmd that could be legit", :prev_track]
+13:55:35.625 [info] ["debouncer actually_sending along cmd", :prev_track]
+13:55:35.626 [info] ["DJ executing cmd", :prev_track]
+13:55:35.721 [info] ["mpv not stopped yet", '1061\n']
+13:55:35.774 [info] "mpv stopped"
+13:55:35.774 [info] "keep playing! elapsed 10 limit 3600"
+13:55:35.775 [info] "will play track /home/pi/git/lullabeam/dev_music/wake/music/good/Anon. & Fernandez_ Tres morillas m'enamoran.mp3"
+13:55:35.812 [info] ["mpv started", '1081\n']
+13:55:51.390 [info] "InputWatcher handle_info {:set_mode, :bed}"
+13:55:51.391 [info] ["debouncer got cmd that could be legit", {:set_mode, :bed}]
+13:55:52.393 [info] ["debouncer actually_sending along cmd", {:set_mode, :bed}]
+13:55:52.395 [info] ["DJ executing cmd", {:set_mode, :bed}]
+13:55:52.395 [info] "setting mode bed"
+13:55:52.488 [info] ["mpv not stopped yet", '1081\n']
+13:55:52.549 [info] "mpv stopped"
+13:55:52.549 [info] "keep playing! elapsed 0 limit 2700"
+13:55:52.550 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Chi chilichi_.mp3"
+13:55:52.592 [info] ["mpv started", '1101\n']
+13:55:58.366 [info] "InputWatcher handle_info {:set_mode, :wake}"
+13:55:58.370 [info] ["debouncer got cmd that could be legit", {:set_mode, :wake}]
+13:55:59.371 [info] ["debouncer actually_sending along cmd", {:set_mode, :wake}]
+13:55:59.374 [info] ["DJ executing cmd", {:set_mode, :wake}]
+13:55:59.375 [info] "setting mode wake"
+13:55:59.463 [info] ["mpv not stopped yet", '1101\n']
+13:55:59.515 [info] "mpv stopped"
+13:55:59.516 [info] "keep playing! elapsed 0 limit 3600"
+13:55:59.516 [info] "will play track /home/pi/git/lullabeam/dev_music/wake/music/good/Anon._ La bella Franceschina.mp3"
+13:55:59.554 [info] ["mpv started", '1121\n']
+13:56:02.805 [info] "InputWatcher handle_info :next_track"
+13:56:02.809 [info] ["debouncer got cmd that could be legit", :next_track]
+13:56:03.810 [info] ["debouncer actually_sending along cmd", :next_track]
+13:56:03.811 [info] ["DJ executing cmd", :next_track]
+13:56:03.906 [info] ["mpv not stopped yet", '1121\n']
+13:56:03.960 [info] "mpv stopped"
+13:56:03.961 [info] "keep playing! elapsed 5 limit 3600"
+13:56:03.961 [info] "will play track /home/pi/git/lullabeam/dev_music/wake/music/good/Anon._ La tricotea.mp3"
+13:56:04.002 [info] ["mpv started", '1141\n']
+13:57:39.884 [info] "keep playing! elapsed 100 limit 3600"
+13:57:39.885 [info] "will play track /home/pi/git/lullabeam/dev_music/wake/music/good/Anon._ Mignonne, allons voir si la rose.mp3"
+13:57:39.953 [info] ["mpv started", '1153\n']
+14:00:12.142 [info] "keep playing! elapsed 253 limit 3600"
+14:00:12.143 [info] "will play track /home/pi/git/lullabeam/dev_music/wake/music/good/Anon._ Vitrum nostrum gloriosum.mp3"
+14:00:12.217 [info] ["mpv started", '1617\n']
+14:00:41.451 [info] "InputWatcher handle_info :next_track"
+14:00:41.452 [info] ["debouncer got cmd that could be legit", :next_track]
+14:00:42.453 [info] ["debouncer actually_sending along cmd", :next_track]
+14:00:42.454 [info] ["DJ executing cmd", :next_track]
+14:00:42.553 [info] ["mpv not stopped yet", '1617\n']
+14:00:42.612 [info] "mpv stopped"
+14:00:42.612 [info] "keep playing! elapsed 283 limit 3600"
+14:00:42.612 [info] "will play track /home/pi/git/lullabeam/dev_music/wake/music/good/Arcadelt_ Il bianco e dolce cigno.mp3"
+14:00:42.654 [info] ["mpv started", '1642\n']
+14:02:49.819 [info] "keep playing! elapsed 410 limit 3600"
+14:02:49.824 [info] "will play track /home/pi/git/lullabeam/dev_music/wake/music/good/Arcadelt_ Margot labourez les vignes.mp3"
+14:02:50.062 [info] ["mpv started", '1829\n']
+14:03:59.666 [info] "keep playing! elapsed 480 limit 3600"
+14:03:59.667 [info] "will play track /home/pi/git/lullabeam/dev_music/wake/music/good/Bartlet_ Of all the birds that I do know.mp3"
+14:03:59.721 [info] ["mpv started", '1851\n']
+14:06:17.063 [info] "keep playing! elapsed 618 limit 3600"
+14:06:17.063 [info] "will play track /home/pi/git/lullabeam/dev_music/wake/music/good/Byrd_ Who made thee, Hob, forsake the plough_.mp3"
+14:06:17.145 [info] ["mpv started", '2141\n']
+14:06:37.543 [info] "InputWatcher handle_info :next_track"
+14:06:37.597 [info] ["debouncer got cmd that could be legit", :next_track]
+14:06:38.606 [info] ["debouncer actually_sending along cmd", :next_track]
+14:06:38.607 [info] ["DJ executing cmd", :next_track]
+14:06:38.761 [info] ["mpv not stopped yet", '2141\n']
+14:06:38.901 [info] ["mpv not stopped yet", [" 2141 ?        00:00:02 mpv"]]
+14:06:38.962 [info] "mpv stopped"
+14:06:38.965 [info] "keep playing! elapsed 640 limit 3600"
+14:06:38.965 [info] "will play track /home/pi/git/lullabeam/dev_music/wake/music/good/Certon_ La, la, la, la je ne l'ose dire.mp3"
+14:06:39.028 [info] ["mpv started", '2194\n']
+14:06:47.689 [info] "InputWatcher handle_info :next_track"
+14:06:47.691 [info] ["debouncer got cmd that could be legit", :next_track]
+14:06:48.693 [info] ["debouncer actually_sending along cmd", :next_track]
+14:06:48.694 [info] ["DJ executing cmd", :next_track]
+14:06:48.792 [info] ["mpv not stopped yet", '2194\n']
+14:06:48.859 [info] "mpv stopped"
+14:06:48.859 [info] "keep playing! elapsed 649 limit 3600"
+14:06:48.859 [info] "will play track /home/pi/git/lullabeam/dev_music/wake/music/good/Dowland_ Fine knacks for ladies.mp3"
+14:06:48.901 [info] ["mpv started", '2238\n']
+14:07:31.234 [info] "InputWatcher handle_info :next_track"
+14:07:31.236 [info] ["debouncer got cmd that could be legit", :next_track]
+14:07:32.237 [info] ["debouncer actually_sending along cmd", :next_track]
+14:07:32.239 [info] ["DJ executing cmd", :next_track]
+14:07:32.313 [info] ["mpv not stopped yet", '2238\n']
+14:07:32.385 [info] "mpv stopped"
+14:07:32.385 [info] "keep playing! elapsed 693 limit 3600"
+14:07:32.387 [info] "will play track /home/pi/git/lullabeam/dev_music/wake/music/good/Encin_ Cucu, cucu.mp3"
+14:07:32.436 [info] ["mpv started", '2410\n']
+14:08:32.748 [info] "keep playing! elapsed 753 limit 3600"
+14:08:32.749 [info] "will play track /home/pi/git/lullabeam/dev_music/wake/music/good/Encina_ Fatal la parte.mp3"
+14:08:32.823 [info] ["mpv started", '2605\n']
+14:09:28.330 [info] "keep playing! elapsed 809 limit 3600"
+14:09:28.331 [info] "will play track /home/pi/git/lullabeam/dev_music/wake/music/good/Farmer_ Fair Phyllis.mp3"
+14:09:28.396 [info] ["mpv started", '2763\n']
+14:10:47.472 [info] "keep playing! elapsed 888 limit 3600"
+14:10:47.473 [info] "will play track /home/pi/git/lullabeam/dev_music/wake/music/good/Flecha_ La bomba.mp3"
+14:10:47.523 [info] ["mpv started", '2804\n']
+14:15:17.365 [info] "playing startup sound!"
+14:15:17.380 [info] "keep playing! elapsed 1158 limit 3600"
+14:15:17.380 [info] "will play track /home/pi/git/lullabeam/dev_music/wake/music/good/Gastoldi_ Amor vittorioso.mp3"
+14:15:17.365 [info] "Looking for an input device..."
+14:15:17.368 [info] ["mpv not stopped yet", '2804\n']
+14:15:17.420 [info] ["mpv started", '3093\n']
+14:15:17.476 [info] ["mpv not stopped yet", [" 3093 ?        00:00:00 mpv"]]
+14:15:17.544 [info] ["mpv not stopped yet", [" 3093 ?        00:00:00 mpv"]]
+14:15:17.619 [info] ["mpv not stopped yet", [" 3093 ?        00:00:00 mpv"]]
+14:15:17.680 [info] ["mpv not stopped yet", [" 3093 ?        00:00:00 mpv"]]
+14:15:17.739 [info] ["mpv not stopped yet", [" 3093 ?        00:00:00 mpv"]]
+14:15:17.801 [info] ["mpv not stopped yet", [" 3093 ?        00:00:00 mpv"]]
+14:15:17.861 [info] ["mpv not stopped yet", [" 3093 ?        00:00:00 mpv"]]
+14:15:17.900 [info] "Found input device Hengchangtong keyboard mouse!"
+14:15:17.948 [info] ["mpv not stopped yet", [" 3093 ?        00:00:00 mpv"]]
+14:15:18.022 [info] ["mpv not stopped yet", [" 3093 ?        00:00:00 mpv"]]
+14:15:18.090 [info] ["mpv not stopped yet", [" 3093 ?        00:00:00 mpv"]]
+14:15:18.155 [info] ["mpv not stopped yet", [" 3093 ?        00:00:00 mpv"]]
+14:15:18.225 [info] ["mpv not stopped yet", [" 3093 ?        00:00:00 mpv"]]
+14:15:18.290 [info] ["mpv not stopped yet", [" 3093 ?        00:00:00 mpv"]]
+14:15:18.355 [info] ["mpv not stopped yet", [" 3093 ?        00:00:00 mpv"]]
+14:15:18.421 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:18.487 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:18.549 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:18.609 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:18.669 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:18.732 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:18.792 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:18.850 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:18.903 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:18.970 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:19.035 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:19.096 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:19.160 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:19.217 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:19.281 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:19.344 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:19.407 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:19.467 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:19.527 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:19.584 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:19.643 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:19.738 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:19.795 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:19.852 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:19.910 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:19.970 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:20.032 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:20.089 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:20.146 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:20.204 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:20.260 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:20.318 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:20.375 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:20.435 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:20.531 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:20.586 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:20.640 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:20.697 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:20.750 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:20.814 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:20.879 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:20.939 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:20.998 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:21.053 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:21.108 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:21.165 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:21.223 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:21.311 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:21.380 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:21.438 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:21.497 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:21.551 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:21.609 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:21.663 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:21.720 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:21.772 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:21.830 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:21.886 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:21.948 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:22.011 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:22.079 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:22.165 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:22.220 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:22.274 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:22.335 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:22.392 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:22.449 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:22.506 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:22.563 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:22.617 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:22.676 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:22.739 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:22.799 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:22.861 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:22.959 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:23.015 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:23.069 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:23.128 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:23.187 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:23.243 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:15:23.297 [info] ["mpv not stopped yet", [" 3093 ?        00:00:01 mpv"]]
+14:16:02.348 [info] "keep playing! elapsed 1203 limit 3600"
+14:16:02.349 [info] "will play track /home/pi/git/lullabeam/dev_music/wake/music/good/Gibbons_ The Silver Swan.mp3"
+14:16:02.393 [info] ["mpv started", '3513\n']
+14:16:48.540 [info] "playing startup sound!"
+14:16:48.540 [info] "Looking for an input device..."
+14:16:48.560 [info] "mpv stopped"
+14:16:48.997 [info] "Found input device Hengchangtong keyboard mouse!"
+14:16:51.602 [info] "playing startup sound!"
+14:16:51.602 [info] "Looking for an input device..."
+14:16:51.603 [info] "mpv stopped"
+14:16:52.033 [info] "Found input device Hengchangtong keyboard mouse!"
+14:16:53.753 [info] "Looking for an input device..."
+14:16:53.752 [info] "playing startup sound!"
+14:16:53.752 [info] "mpv stopped"
+14:16:54.175 [info] "Found input device Hengchangtong keyboard mouse!"
+14:16:58.887 [info] "InputWatcher handle_info :play_or_pause"
+14:16:58.887 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+14:16:59.889 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+14:16:59.890 [info] ["DJ executing cmd", :play_or_pause]
+14:16:59.890 [info] "play or pause - was stopped"
+14:16:59.902 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Blackbird.mp3"
+14:16:59.956 [info] ["mpv started", '1056\n']
+14:17:28.841 [info] "InputWatcher handle_info :play_or_pause"
+14:17:28.842 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+14:17:29.844 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+14:17:29.845 [info] ["DJ executing cmd", :play_or_pause]
+14:17:29.845 [info] "play or pause - was playing"
+14:17:29.873 [info] "connected to mvp"
+14:17:31.594 [info] "InputWatcher handle_info :next_track"
+14:17:31.595 [info] ["debouncer got cmd that could be legit", :next_track]
+14:17:32.595 [info] ["debouncer actually_sending along cmd", :next_track]
+14:17:32.596 [info] ["DJ executing cmd", :next_track]
+14:17:41.114 [info] "InputWatcher handle_info :next_track"
+14:17:41.115 [info] ["debouncer got cmd that could be legit", :next_track]
+14:17:42.116 [info] ["debouncer actually_sending along cmd", :next_track]
+14:17:42.117 [info] ["DJ executing cmd", :next_track]
+14:17:42.682 [info] "InputWatcher handle_info :play_or_pause"
+14:17:42.684 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+14:17:43.681 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+14:17:43.682 [info] ["DJ executing cmd", :play_or_pause]
+14:17:43.683 [info] "play or pause - was paused"
+14:17:43.684 [info] "connected to mvp"
+14:18:01.886 [info] "playing startup sound!"
+14:18:01.886 [info] "Looking for an input device..."
+14:18:01.918 [info] "mpv stopped"
+14:18:02.366 [info] "Found input device Hengchangtong keyboard mouse!"
+14:18:05.200 [info] "playing startup sound!"
+14:18:05.200 [info] "Looking for an input device..."
+14:18:05.200 [info] "mpv stopped"
+14:18:05.649 [info] "Found input device Hengchangtong keyboard mouse!"
+14:18:06.819 [info] "playing startup sound!"
+14:18:06.819 [info] "Looking for an input device..."
+14:18:06.841 [info] "mpv stopped"
+14:18:07.250 [info] "Found input device Hengchangtong keyboard mouse!"
+14:18:46.217 [info] "InputWatcher handle_info :play_or_pause"
+14:18:46.218 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+14:18:47.210 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+14:18:47.211 [info] ["DJ executing cmd", :play_or_pause]
+14:18:47.213 [info] "play or pause - was stopped"
+14:18:47.225 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Blackbird.mp3"
+14:18:47.278 [info] ["mpv started", '1059\n']
+14:18:48.225 [info] "InputWatcher handle_info :play_or_pause"
+14:18:48.226 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+14:18:49.219 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+14:18:49.220 [info] ["DJ executing cmd", :play_or_pause]
+14:18:49.221 [info] "play or pause - was playing"
+14:18:49.240 [info] "terminating DJ - ensuring mpv is stopped"
+14:18:49.280 [info] "mpv stopped"
+14:18:49.374 [error] GenServer Lullabeam.DJ terminating
+** (MatchError) no match of right hand side value: {:error, {"could not connect to mpv", {:error, :enoent}}}
+    (lullabeam 0.1.0) lib/lullabeam/dj.ex:303: Lullabeam.DJ.message_mpv/1
+    (lullabeam 0.1.0) lib/lullabeam/dj.ex:68: Lullabeam.DJ.handle_call/3
+    (stdlib 3.10) gen_server.erl:661: :gen_server.try_handle_call/4
+    (stdlib 3.10) gen_server.erl:690: :gen_server.handle_msg/6
+    (stdlib 3.10) proc_lib.erl:249: :proc_lib.init_p_do_apply/3
+Last message (from Lullabeam.Debouncer): :play_or_pause
+State: %{current_folder: 0, current_mode: :bed, current_track: 0, env: :host, library: %{sleep: [{"/home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds", ["/home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Blackbird.mp3", "/home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Chi chilichi_.mp3", "/home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Humpty Dumpty.mp3", "/home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/L`-bas dans le Limousin.mp3", "/home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/My Spirit Sang All Day.mp3", "/home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Now is the Month of Maying.mp3", "/home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Resonet in laudibus.mp3", "/home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Short People.mp3", "/home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/The Oak and the Ash.mp3", "/home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/The Slow Train.mp3", "/home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Time Piece.mp3", "/home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Veronika, der Lenz ist da.mp3", "/home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/You are the New Day.mp3"]}], wake: [{"/home/pi/git/lullabeam/dev_music/wake/music/good", ["/home/pi/git/lullabeam/dev_music/wake/music/good/Anon. & Fernandez_ Tres morillas m'enamoran.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Anon._ Alla cazza.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Anon._ La bella Franceschina.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Anon._ La tricotea.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Anon._ Mignonne, allons voir si la rose.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Anon._ Vitrum nostrum gloriosum.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Arcadelt_ Il bianco e dolce cigno.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Arcadelt_ Margot labourez les vignes.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Bartlet_ Of all the birds that I do know.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Byrd_ Who made thee, Hob, forsake the plough_.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Certon_ La, la, la, la je ne l'ose dire.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Dowland_ Fine knacks for ladies.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Encin_ Cucu, cucu.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Encina_ Fatal la parte.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Farmer_ Fair Phyllis.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Flecha_ La bomba.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Gastoldi_ Amor vittorioso.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Gibbons_ The Silver Swan.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Hassler_ Ach weh des Leiden.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Hassler_ Tanzen und Springen.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Hofhaimer_ Herzliebstes Bild.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Janequin & Verdelot_ La Guerre.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Lassus_ Bon jour_ et puis, quelles nouvelles_.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Le Jeune_ Un gentil amoureux.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Morley_ Now is the month of maying.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Mudarra_ Triste estaba el rey David.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Passereau_ Il est bel et bon.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Rossino Mantovano_ Lirum bililirum.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Senfl_ Ach Elslein.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Senfl_ Das G'laut zu Speyer.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Tomkins_ Too much I once lamented.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Verdelot_ Ultimi mei sospiri.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Wert_ Or si rallegri il cielo.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Willaert_ Faulte d'argent.mp3"]}]}, max_seconds: 2700, navigating: false, playback: %{started_playing: 39, state: :playing}}
+Client Lullabeam.Debouncer is alive
+
+    (stdlib 3.10) gen.erl:167: :gen.do_call/4
+    (elixir 1.10.3) lib/gen_server.ex:1020: GenServer.call/3
+    (lullabeam 0.1.0) lib/lullabeam/debouncer.ex:52: Lullabeam.Debouncer.handle_info/2
+    (stdlib 3.10) gen_server.erl:637: :gen_server.try_dispatch/4
+    (stdlib 3.10) gen_server.erl:711: :gen_server.handle_msg/6
+    (stdlib 3.10) proc_lib.erl:249: :proc_lib.init_p_do_apply/3
+14:18:49.378 [info] "playing startup sound!"
+14:18:49.379 [info] "Looking for an input device..."
+14:18:49.422 [info] "mpv stopped"
+14:18:49.767 [info] "Found input device Hengchangtong keyboard mouse!"
+14:18:54.745 [info] "InputWatcher handle_info :play_or_pause"
+14:18:54.746 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+14:18:55.747 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+14:18:55.749 [info] ["DJ executing cmd", :play_or_pause]
+14:18:55.749 [info] "play or pause - was stopped"
+14:18:55.750 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Blackbird.mp3"
+14:18:55.805 [info] ["mpv started", '1093\n']
+14:18:58.457 [info] "InputWatcher handle_info :play_or_pause"
+14:18:58.458 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+14:18:59.459 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+14:18:59.460 [info] ["DJ executing cmd", :play_or_pause]
+14:18:59.461 [info] "play or pause - was playing"
+14:18:59.462 [info] "connected to mvp"
+14:19:29.491 [info] "playing startup sound!"
+14:19:29.491 [info] "Looking for an input device..."
+14:19:29.504 [info] "mpv stopped"
+14:19:29.889 [info] "Found input device Hengchangtong keyboard mouse!"
+14:19:34.220 [info] "playing startup sound!"
+14:19:34.220 [info] "Looking for an input device..."
+14:19:34.230 [info] "mpv stopped"
+14:19:34.668 [info] "Found input device Hengchangtong keyboard mouse!"
+14:19:41.182 [info] "InputWatcher handle_info :play_or_pause"
+14:19:41.193 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+14:19:42.194 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+14:19:42.205 [info] ["DJ executing cmd", :play_or_pause]
+14:19:42.205 [info] "play or pause - was stopped"
+14:19:42.226 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Blackbird.mp3"
+14:19:42.290 [info] ["mpv started", '723\n']
+14:20:14.834 [info] "InputWatcher handle_info :next_track"
+14:20:14.867 [info] ["debouncer got cmd that could be legit", :next_track]
+14:20:15.859 [info] ["debouncer actually_sending along cmd", :next_track]
+14:20:15.874 [info] ["DJ executing cmd", :next_track]
+14:20:15.971 [info] ["mpv not stopped yet", '723\n']
+14:20:16.047 [info] ["mpv not stopped yet", ["  723 ?        00:00:02 mpv"]]
+14:20:16.093 [info] "mpv stopped"
+14:20:16.093 [info] "keep playing! elapsed 23 limit 2700"
+14:20:16.093 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Chi chilichi_.mp3"
+14:20:16.131 [info] ["mpv started", '749\n']
+14:20:29.610 [info] "InputWatcher handle_info :next_track"
+14:20:29.645 [info] ["debouncer got cmd that could be legit", :next_track]
+14:20:30.637 [info] ["debouncer actually_sending along cmd", :next_track]
+14:20:30.651 [info] ["DJ executing cmd", :next_track]
+14:20:30.729 [info] ["mpv not stopped yet", '749\n']
+14:20:30.775 [info] "mpv stopped"
+14:20:30.775 [info] "keep playing! elapsed 38 limit 2700"
+14:20:30.775 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Humpty Dumpty.mp3"
+14:20:30.813 [info] ["mpv started", '769\n']
+14:23:49.199 [info] "playing startup sound!"
+14:23:49.199 [info] "Looking for an input device..."
+14:23:49.210 [info] "mpv stopped"
+14:23:49.564 [info] "Found input device Hengchangtong keyboard mouse!"
+14:23:53.994 [info] "playing startup sound!"
+14:23:53.994 [info] "Looking for an input device..."
+14:23:54.002 [info] "mpv stopped"
+14:23:54.427 [info] "Found input device Hengchangtong keyboard mouse!"
+14:24:00.832 [info] "InputWatcher handle_info :play_or_pause"
+14:24:00.843 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+14:24:01.844 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+14:24:01.856 [info] ["DJ executing cmd", :play_or_pause]
+14:24:01.856 [info] "play or pause - was stopped"
+14:24:01.878 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Blackbird.mp3"
+14:24:01.927 [info] ["mpv started", '725\n']
+14:24:08.408 [info] "InputWatcher handle_info :prev_track"
+14:24:08.442 [info] ["debouncer got cmd that could be legit", :prev_track]
+14:24:09.443 [info] ["debouncer actually_sending along cmd", :prev_track]
+14:24:09.478 [info] ["DJ executing cmd", :prev_track]
+14:24:09.556 [info] ["mpv not stopped yet", '725\n']
+14:24:09.618 [info] ["mpv not stopped yet", ["  725 ?        00:00:01 mpv"]]
+14:24:09.666 [info] "mpv stopped"
+14:24:09.666 [info] "keep playing! elapsed 8 limit 2700"
+14:24:09.666 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/You are the New Day.mp3"
+14:24:09.695 [info] ["mpv started", '749\n']
+14:24:29.778 [info] "playing startup sound!"
+14:24:29.778 [info] "Looking for an input device..."
+14:24:29.787 [info] "mpv stopped"
+14:24:29.999 [info] "Found input device Hengchangtong keyboard mouse!"
+14:24:34.430 [info] "playing startup sound!"
+14:24:34.430 [info] "Looking for an input device..."
+14:24:34.440 [info] "mpv stopped"
+14:24:34.654 [info] "Found input device Hengchangtong keyboard mouse!"
+14:24:52.924 [info] "InputWatcher handle_info :play_or_pause"
+14:24:52.928 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+14:24:53.930 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+14:24:53.934 [info] ["DJ executing cmd", :play_or_pause]
+14:24:53.935 [info] "play or pause - was stopped"
+14:24:53.957 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Blackbird.mp3"
+14:24:54.003 [info] ["mpv started", '705\n']
+14:25:34.167 [info] "InputWatcher handle_info :play_or_pause"
+14:25:34.172 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+14:25:35.174 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+14:25:35.179 [info] ["DJ executing cmd", :play_or_pause]
+14:25:35.180 [info] "play or pause - was playing"
+14:25:35.214 [info] "connected to mvp"
+14:25:36.991 [info] "InputWatcher handle_info :play_or_pause"
+14:25:36.995 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+14:25:37.997 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+14:25:38.001 [info] ["DJ executing cmd", :play_or_pause]
+14:25:38.002 [info] "play or pause - was paused"
+14:25:38.002 [info] "connected to mvp"
+14:25:34.963 [info] "playing startup sound!"
+14:25:34.963 [info] "Looking for an input device..."
+14:25:34.971 [info] "mpv stopped"
+14:25:35.155 [info] "Found input device Hengchangtong keyboard mouse!"
+14:25:39.781 [info] "playing startup sound!"
+14:25:39.781 [info] "Looking for an input device..."
+14:25:39.791 [info] "mpv stopped"
+14:25:40.015 [info] "Found input device Hengchangtong keyboard mouse!"
+14:27:19.618 [info] "playing startup sound!"
+14:27:19.618 [info] "Looking for an input device..."
+14:27:19.629 [info] "mpv stopped"
+14:27:20.080 [info] "Found input device Hengchangtong keyboard mouse!"
+14:27:24.499 [info] "playing startup sound!"
+14:27:24.499 [info] "Looking for an input device..."
+14:27:24.509 [info] "mpv stopped"
+14:27:24.940 [info] "Found input device Hengchangtong keyboard mouse!"
+14:27:34.039 [info] "InputWatcher handle_info :play_or_pause"
+14:27:34.050 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+14:27:35.052 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+14:27:35.063 [info] ["DJ executing cmd", :play_or_pause]
+14:27:35.064 [info] "play or pause - was stopped"
+14:27:35.087 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Blackbird.mp3"
+14:27:35.134 [info] ["mpv started", '714\n']
+14:27:39.407 [info] "InputWatcher handle_info :prev_track"
+14:27:39.420 [info] ["debouncer got cmd that could be legit", :prev_track]
+14:27:40.421 [info] ["debouncer actually_sending along cmd", :prev_track]
+14:27:40.456 [info] ["DJ executing cmd", :prev_track]
+14:27:40.513 [info] ["mpv not stopped yet", '714\n']
+14:27:40.576 [info] ["mpv not stopped yet", ["  714 ?        00:00:01 mpv"]]
+14:27:40.628 [info] "mpv stopped"
+14:27:40.629 [info] "keep playing! elapsed 6 limit 2700"
+14:27:40.629 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/You are the New Day.mp3"
+14:27:40.667 [info] ["mpv started", '738\n']
+14:28:25.292 [info] "InputWatcher handle_info :prev_track"
+14:28:25.306 [info] ["debouncer got cmd that could be legit", :prev_track]
+14:28:26.308 [info] ["debouncer actually_sending along cmd", :prev_track]
+14:28:26.321 [info] ["DJ executing cmd", :prev_track]
+14:28:26.394 [info] ["mpv not stopped yet", '738\n']
+14:28:26.442 [info] "mpv stopped"
+14:28:26.442 [info] "keep playing! elapsed 14 limit 2700"
+14:28:26.443 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Veronika, der Lenz ist da.mp3"
+14:28:26.499 [info] ["mpv started", '763\n']
+14:29:25.501 [info] "playing startup sound!"
+14:29:25.501 [info] "Looking for an input device..."
+14:29:25.512 [info] "mpv stopped"
+14:29:25.720 [info] "Found input device Hengchangtong keyboard mouse!"
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    14:30:18.473 [info] "playing startup sound!"
+14:30:18.473 [info] "Looking for an input device..."
+14:30:18.481 [info] "mpv stopped"
+14:30:18.687 [info] "Found input device Hengchangtong keyboard mouse!"
+14:30:23.442 [info] "playing startup sound!"
+14:30:23.443 [info] "Looking for an input device..."
+14:30:23.452 [info] "mpv stopped"
+14:30:23.666 [info] "Found input device Hengchangtong keyboard mouse!"
+14:30:36.589 [info] "InputWatcher handle_info :play_or_pause"
+14:30:36.594 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+14:30:37.595 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+14:30:37.600 [info] ["DJ executing cmd", :play_or_pause]
+14:30:37.600 [info] "play or pause - was stopped"
+14:30:37.624 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Blackbird.mp3"
+14:30:37.670 [info] ["mpv started", '704\n']
+14:30:38.893 [info] "InputWatcher handle_info :next_track"
+14:30:38.895 [info] ["debouncer got cmd that could be legit", :next_track]
+14:30:39.896 [info] ["debouncer actually_sending along cmd", :next_track]
+14:30:39.902 [info] ["DJ executing cmd", :next_track]
+14:30:39.936 [info] "mpv stopped"
+14:30:39.936 [info] "keep playing! elapsed 2 limit 2700"
+14:30:39.937 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Chi chilichi_.mp3"
+14:30:39.961 [info] ["mpv started", '711\n']
+14:30:41.157 [info] "InputWatcher handle_info :prev_track"
+14:30:41.162 [info] ["debouncer got cmd that could be legit", :prev_track]
+14:30:41.781 [info] "InputWatcher handle_info :play_or_pause"
+14:30:42.784 [info] ["can stop blocking", nil]
+14:32:39.335 [info] "InputWatcher handle_info :next_track"
+14:32:39.340 [info] ["debouncer got cmd that could be legit", :next_track]
+14:32:40.000 [info] "InputWatcher handle_info :play_or_pause"
+14:32:41.003 [info] ["can stop blocking", nil]
+14:32:44.199 [info] "InputWatcher handle_info :next_track"
+14:32:44.204 [info] ["debouncer got cmd that could be legit", :next_track]
+14:32:45.206 [info] ["debouncer actually_sending along cmd", :next_track]
+14:32:45.218 [info] ["DJ executing cmd", :next_track]
+14:32:45.289 [info] ["mpv not stopped yet", '711\n']
+14:32:45.361 [info] ["mpv not stopped yet", ["  711 ?        00:00:01 mpv"]]
+14:32:45.406 [info] "mpv stopped"
+14:32:45.406 [info] "keep playing! elapsed 19 limit 2700"
+14:32:45.406 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Humpty Dumpty.mp3"
+14:32:45.431 [info] ["mpv started", '780\n']
+14:33:10.679 [info] "InputWatcher handle_info :play_or_pause"
+14:33:10.684 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+14:33:11.685 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+14:33:11.689 [info] ["DJ executing cmd", :play_or_pause]
+14:33:11.690 [info] "play or pause - was playing"
+14:33:11.723 [info] "connected to mvp"
+14:33:21.791 [info] "InputWatcher handle_info :play_or_pause"
+14:33:21.795 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+14:33:22.797 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+14:33:22.801 [info] ["DJ executing cmd", :play_or_pause]
+14:33:22.802 [info] "play or pause - was paused"
+14:33:22.803 [info] "connected to mvp"
+14:34:14.060 [info] "mpv stopped"
+14:34:14.054 [info] "Looking for an input device..."
+14:34:14.054 [info] "playing startup sound!"
+14:34:14.410 [info] "Found input device Hengchangtong keyboard mouse!"
+14:34:18.911 [info] "playing startup sound!"
+14:34:18.911 [info] "Looking for an input device..."
+14:34:18.920 [info] "mpv stopped"
+14:34:19.322 [info] "Found input device Hengchangtong keyboard mouse!"
+14:35:15.199 [info] "playing startup sound!"
+14:35:15.199 [info] "Looking for an input device..."
+14:35:15.209 [info] "mpv stopped"
+14:35:15.648 [info] "Found input device Hengchangtong keyboard mouse!"
+14:35:22.104 [info] "InputWatcher handle_info :play_or_pause"
+14:35:22.113 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+14:35:23.105 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+14:35:23.112 [info] ["DJ executing cmd", :play_or_pause]
+14:35:23.112 [info] "play or pause - was stopped"
+14:35:23.127 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Blackbird.mp3"
+14:35:23.157 [info] ["mpv started", '951\n']
+14:38:02.746 [info] "keep playing! elapsed 161 limit 2700"
+14:38:02.747 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Chi chilichi_.mp3"
+14:38:02.803 [info] ["mpv started", '1327\n']
+14:38:40.880 [info] "playing startup sound!"
+14:38:40.880 [info] "Looking for an input device..."
+14:38:40.891 [info] "mpv stopped"
+14:38:41.141 [info] "Found input device Hengchangtong keyboard mouse!"
+14:38:45.531 [info] "playing startup sound!"
+14:38:45.531 [info] "Looking for an input device..."
+14:38:45.540 [info] "mpv stopped"
+14:38:45.718 [info] "Found input device Hengchangtong keyboard mouse!"
+14:39:56.608 [info] "playing startup sound!"
+14:39:56.608 [info] "Looking for an input device..."
+14:39:56.608 [info] "mpv stopped"
+14:39:56.898 [info] "Found input device Hengchangtong keyboard mouse!"
+14:40:49.262 [info] "playing startup sound!"
+14:40:49.262 [info] "Looking for an input device..."
+14:40:49.275 [info] "mpv stopped"
+14:40:49.488 [info] "Found input device Hengchangtong keyboard mouse!"
+14:45:51.086 [info] "playing startup sound!"
+14:45:51.086 [info] "Looking for an input device..."
+14:45:51.099 [info] "mpv stopped"
+14:45:51.337 [info] "Found input device Hengchangtong keyboard mouse!"
+14:47:50.328 [info] "playing startup sound!"
+14:47:50.328 [info] "Looking for an input device..."
+14:47:50.340 [info] "mpv stopped"
+14:47:50.581 [info] "Found input device Hengchangtong keyboard mouse!"
+14:47:55.101 [info] "Looking for an input device..."
+14:47:55.101 [info] "playing startup sound!"
+14:47:55.108 [info] "mpv stopped"
+14:47:55.340 [info] "Found input device Hengchangtong keyboard mouse!"
+14:47:58.581 [info] "InputWatcher handle_info :play_or_pause"
+14:47:58.586 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+14:47:59.587 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+14:47:59.592 [info] ["DJ executing cmd", :play_or_pause]
+14:47:59.593 [info] "play or pause - was stopped"
+14:47:59.616 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Blackbird.mp3"
+14:47:59.663 [info] ["mpv started", '705\n']
+14:48:02.997 [info] "InputWatcher handle_info :play_or_pause"
+14:48:03.002 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+14:48:04.003 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+14:48:04.005 [info] ["DJ executing cmd", :play_or_pause]
+14:48:04.005 [info] "play or pause - was playing"
+14:48:04.026 [info] "connected to mvp"
+14:48:09.333 [info] "InputWatcher handle_info :play_or_pause"
+14:48:09.335 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+14:48:09.659 [info] "playing startup sound!"
+14:48:09.659 [info] "Looking for an input device..."
+14:48:09.667 [info] ["mpv not stopped yet", '705\n']
+14:48:09.755 [info] ["mpv not stopped yet", ["  705 ?        00:00:01 mpv"]]
+14:48:09.805 [info] "mpv stopped"
+14:48:09.900 [info] "Found input device Hengchangtong keyboard mouse!"
+14:48:10.336 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+14:48:10.338 [info] ["DJ executing cmd", :play_or_pause]
+14:48:10.339 [info] "play or pause - was paused"
+14:48:10.340 [info] "connection refused (mvp not ready yet)"
+14:48:10.361 [info] "connection refused (mvp not ready yet)"
+14:48:10.382 [info] "connection refused (mvp not ready yet)"
+14:48:10.403 [info] "connection refused (mvp not ready yet)"
+14:48:10.424 [info] "connection refused (mvp not ready yet)"
+14:48:10.445 [info] "connection refused (mvp not ready yet)"
+14:48:10.466 [info] "connection refused (mvp not ready yet)"
+14:48:10.487 [info] "connection refused (mvp not ready yet)"
+14:48:10.508 [info] "connection refused (mvp not ready yet)"
+14:48:10.529 [info] "connection refused (mvp not ready yet)"
+14:48:10.550 [info] "connection refused (mvp not ready yet)"
+14:48:10.571 [info] "terminating DJ - ensuring mpv is stopped"
+14:48:10.606 [info] "mpv stopped"
+14:48:10.718 [error] GenServer Lullabeam.DJ terminating
+** (MatchError) no match of right hand side value: {:error, "gave up trying to connect to mpv"}
+    (lullabeam 0.1.0) lib/lullabeam/dj.ex:303: Lullabeam.DJ.message_mpv/1
+    (lullabeam 0.1.0) lib/lullabeam/dj.ex:80: Lullabeam.DJ.handle_call/3
+    (stdlib 3.10) gen_server.erl:661: :gen_server.try_handle_call/4
+    (stdlib 3.10) gen_server.erl:690: :gen_server.handle_msg/6
+    (stdlib 3.10) proc_lib.erl:249: :proc_lib.init_p_do_apply/3
+Last message (from Lullabeam.Debouncer): :play_or_pause
+State: %{current_folder: 0, current_mode: :bed, current_track: 0, env: :host, library: %{sleep: [{"/home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds", ["/home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Blackbird.mp3", "/home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Chi chilichi_.mp3", "/home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Humpty Dumpty.mp3", "/home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/L`-bas dans le Limousin.mp3", "/home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/My Spirit Sang All Day.mp3", "/home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Now is the Month of Maying.mp3", "/home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Resonet in laudibus.mp3", "/home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Short People.mp3", "/home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/The Oak and the Ash.mp3", "/home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/The Slow Train.mp3", "/home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Time Piece.mp3", "/home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Veronika, der Lenz ist da.mp3", "/home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/You are the New Day.mp3"]}], wake: [{"/home/pi/git/lullabeam/dev_music/wake/music/good", ["/home/pi/git/lullabeam/dev_music/wake/music/good/Anon. & Fernandez_ Tres morillas m'enamoran.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Anon._ Alla cazza.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Anon._ La bella Franceschina.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Anon._ La tricotea.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Anon._ Mignonne, allons voir si la rose.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Anon._ Vitrum nostrum gloriosum.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Arcadelt_ Il bianco e dolce cigno.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Arcadelt_ Margot labourez les vignes.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Bartlet_ Of all the birds that I do know.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Byrd_ Who made thee, Hob, forsake the plough_.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Certon_ La, la, la, la je ne l'ose dire.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Dowland_ Fine knacks for ladies.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Encin_ Cucu, cucu.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Encina_ Fatal la parte.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Farmer_ Fair Phyllis.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Flecha_ La bomba.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Gastoldi_ Amor vittorioso.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Gibbons_ The Silver Swan.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Hassler_ Ach weh des Leiden.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Hassler_ Tanzen und Springen.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Hofhaimer_ Herzliebstes Bild.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Janequin & Verdelot_ La Guerre.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Lassus_ Bon jour_ et puis, quelles nouvelles_.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Le Jeune_ Un gentil amoureux.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Morley_ Now is the month of maying.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Mudarra_ Triste estaba el rey David.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Passereau_ Il est bel et bon.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Rossino Mantovano_ Lirum bililirum.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Senfl_ Ach Elslein.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Senfl_ Das G'laut zu Speyer.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Tomkins_ Too much I once lamented.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Verdelot_ Ultimi mei sospiri.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Wert_ Or si rallegri il cielo.mp3", "/home/pi/git/lullabeam/dev_music/wake/music/good/Willaert_ Faulte d'argent.mp3"]}]}, max_seconds: 2700, navigating: false, playback: %{started_playing: 11, state: :paused}}
+Client Lullabeam.Debouncer is alive
+
+    (stdlib 3.10) gen.erl:167: :gen.do_call/4
+    (elixir 1.10.3) lib/gen_server.ex:1020: GenServer.call/3
+    (lullabeam 0.1.0) lib/lullabeam/debouncer.ex:52: Lullabeam.Debouncer.handle_info/2
+    (stdlib 3.10) gen_server.erl:637: :gen_server.try_dispatch/4
+    (stdlib 3.10) gen_server.erl:711: :gen_server.handle_msg/6
+    (stdlib 3.10) proc_lib.erl:249: :proc_lib.init_p_do_apply/3
+14:48:10.724 [info] "playing startup sound!"
+14:48:10.725 [info] "Looking for an input device..."
+14:48:10.782 [info] "mpv stopped"
+14:48:10.967 [info] "Found input device Hengchangtong keyboard mouse!"
+14:48:13.629 [info] "InputWatcher handle_info :play_or_pause"
+14:48:13.629 [info] "InputWatcher handle_info :play_or_pause"
+14:48:13.631 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+14:48:13.634 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+14:48:14.632 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+14:48:14.635 [info] ["DJ executing cmd", :play_or_pause]
+14:48:14.636 [info] "play or pause - was stopped"
+14:48:14.636 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+14:48:14.641 [info] ["DJ executing cmd", :play_or_pause]
+14:48:14.645 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Blackbird.mp3"
+14:48:14.642 [info] "play or pause - was stopped"
+14:48:14.643 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Blackbird.mp3"
+14:48:14.704 [info] ["mpv started", '858\n859\n']
+14:48:14.720 [info] ["mpv started", '858\n859\n']
+14:48:25.237 [info] "keep playing! elapsed 11 limit 2700"
+14:48:25.238 [info] "keep playing! elapsed 10 limit 2700"
+14:48:25.238 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Chi chilichi_.mp3"
+14:48:25.237 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Chi chilichi_.mp3"
+14:48:25.269 [info] "playing startup sound!"
+14:48:25.269 [info] "Looking for an input device..."
+14:48:25.269 [info] ["mpv not stopped yet", '858\n859\n']
+14:48:25.292 [info] ["mpv started", '1073\n1075\n']
+14:48:25.302 [info] ["mpv started", '1073\n1075\n']
+14:48:25.411 [info] ["mpv not stopped yet", [" 1073 ?        00:00:00 mpv", " 1075 ?        00:00:00 mpv"]]
+14:48:25.478 [info] ["mpv not stopped yet", [" 1073 ?        00:00:00 mpv", " 1075 ?        00:00:00 mpv"]]
+14:48:25.571 [info] ["mpv not stopped yet", [" 1073 ?        00:00:00 mpv", " 1075 ?        00:00:00 mpv"]]
+14:48:25.605 [info] "Found input device Hengchangtong keyboard mouse!"
+14:48:25.671 [info] ["mpv not stopped yet", [" 1073 ?        00:00:00 mpv", " 1075 ?        00:00:00 mpv"]]
+14:53:51.687 [info] "playing startup sound!"
+14:53:51.687 [info] "Looking for an input device..."
+14:53:51.697 [info] "mpv stopped"
+14:53:51.926 [info] "Found input device Hengchangtong keyboard mouse!"
+14:54:27.423 [info] "playing startup sound!"
+14:54:27.423 [info] "Looking for an input device..."
+14:54:27.432 [info] "mpv stopped"
+14:54:27.651 [info] "Found input device Hengchangtong keyboard mouse!"
+14:55:05.214 [info] "playing startup sound!"
+14:55:05.214 [info] "Looking for an input device..."
+14:55:05.222 [info] "mpv stopped"
+14:55:05.444 [info] "Found input device Hengchangtong keyboard mouse!"
+14:55:24.984 [info] "playing startup sound!"
+14:55:24.984 [info] "Looking for an input device..."
+14:55:24.994 [info] "mpv stopped"
+14:55:25.248 [info] "Found input device Hengchangtong keyboard mouse!"
+14:55:28.590 [info] "InputWatcher handle_info :play_or_pause"
+14:55:28.592 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+14:55:29.594 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+14:55:29.596 [info] ["DJ executing cmd", :play_or_pause]
+14:55:29.597 [info] "play or pause - was stopped"
+14:55:29.608 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Blackbird.mp3"
+14:55:29.657 [info] ["mpv started", '735\n']
+14:57:30.250 [info] "InputWatcher handle_info :next_track"
+14:57:30.252 [info] ["debouncer got cmd that could be legit", :next_track]
+14:57:31.253 [info] ["debouncer actually_sending along cmd", :next_track]
+14:57:31.254 [info] ["DJ executing cmd", :next_track]
+14:57:31.332 [info] ["mpv not stopped yet", '735\n']
+14:57:31.442 [info] ["mpv not stopped yet", ["  735 ?        00:00:08 mpv"]]
+14:57:31.518 [info] "mpv stopped"
+14:57:31.519 [info] "keep playing! elapsed 113 limit 2700"
+14:57:31.520 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Chi chilichi_.mp3"
+14:57:31.569 [info] ["mpv started", '763\n']
+14:59:05.641 [info] "InputWatcher handle_info :play_or_pause"
+14:59:05.643 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+14:59:06.644 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+14:59:06.645 [info] ["DJ executing cmd", :play_or_pause]
+14:59:06.646 [info] "play or pause - was playing"
+14:59:06.674 [info] "connected to mvp"
+15:02:13.536 [info] "InputWatcher handle_info :play_or_pause"
+15:02:13.538 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+15:02:14.540 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+15:02:14.541 [info] ["DJ executing cmd", :play_or_pause]
+15:02:14.541 [info] "play or pause - was paused"
+15:02:14.543 [info] "connected to mvp"
+15:03:19.545 [info] "keep playing! elapsed 65 limit 2700"
+15:03:19.546 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Humpty Dumpty.mp3"
+15:03:19.577 [info] ["mpv started", '778\n']
+15:04:36.175 [info] "InputWatcher handle_info :next_track"
+15:04:36.178 [info] ["debouncer got cmd that could be legit", :next_track]
+15:04:37.178 [info] ["debouncer actually_sending along cmd", :next_track]
+15:04:37.180 [info] ["DJ executing cmd", :next_track]
+15:04:37.252 [info] ["mpv not stopped yet", '778\n']
+15:04:37.318 [info] "mpv stopped"
+15:04:37.319 [info] "keep playing! elapsed 144 limit 2700"
+15:04:37.320 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/L`-bas dans le Limousin.mp3"
+15:04:37.344 [info] ["mpv started", '799\n']
+15:05:05.164 [info] "Looking for an input device..."
+15:05:05.164 [info] "playing startup sound!"
+15:05:05.172 [info] "mpv stopped"
+15:05:05.405 [info] "Found input device Hengchangtong keyboard mouse!"
+15:08:47.800 [info] "playing startup sound!"
+15:08:47.800 [info] "Looking for an input device..."
+15:08:47.809 [info] "mpv stopped"
+15:08:48.071 [info] "Found input device Hengchangtong keyboard mouse!"
+15:08:52.780 [info] "playing startup sound!"
+15:08:52.780 [info] "Looking for an input device..."
+15:08:52.791 [info] "mpv stopped"
+15:08:52.982 [info] "Found input device Hengchangtong keyboard mouse!"
+15:08:58.462 [info] "InputWatcher handle_info :play_or_pause"
+15:08:58.473 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+15:08:59.474 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+15:08:59.487 [info] ["DJ executing cmd", :play_or_pause]
+15:08:59.488 [info] "play or pause - was stopped"
+15:08:59.545 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Blackbird.mp3"
+15:08:59.568 [info] ["mpv started", '701\n']
+15:09:05.310 [info] "InputWatcher handle_info :next_folder"
+15:09:05.322 [info] ["debouncer got cmd that could be legit", :next_folder]
+15:09:06.323 [info] ["debouncer actually_sending along cmd", :next_folder]
+15:09:06.357 [info] ["DJ executing cmd", :next_folder]
+15:09:06.434 [info] ["mpv not stopped yet", '701\n']
+15:09:06.504 [info] ["mpv not stopped yet", ["  701 ?        00:00:01 mpv"]]
+15:09:06.550 [info] "mpv stopped"
+15:09:06.551 [info] "keep playing! elapsed 7 limit 2700"
+15:09:06.551 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Blackbird.mp3"
+15:09:06.586 [info] ["mpv started", '725\n']
+15:09:09.446 [info] "InputWatcher handle_info :stop"
+15:09:09.458 [info] ["debouncer got cmd that could be legit", :stop]
+15:09:10.461 [info] ["debouncer actually_sending along cmd", :stop]
+15:09:10.472 [info] ["DJ executing cmd", :stop]
+15:09:10.539 [info] ["mpv not stopped yet", '725\n']
+15:09:10.585 [info] "mpv stopped"
+15:09:12.922 [info] "InputWatcher handle_info {:set_mode, :wake}"
+15:09:12.935 [info] ["debouncer got cmd that could be legit", {:set_mode, :wake}]
+15:09:24.998 [info] ["debouncer actually_sending along cmd", {:set_mode, :wake}]
+15:09:25.011 [info] ["DJ executing cmd", {:set_mode, :wake}]
+15:09:25.012 [info] "setting mode wake"
+15:09:25.083 [info] "mpv stopped"
+15:09:26.731 [info] "InputWatcher handle_info :play_or_pause"
+15:09:26.763 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+15:09:27.765 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+15:09:27.796 [info] ["DJ executing cmd", :play_or_pause]
+15:09:27.797 [info] "play or pause - was stopped"
+15:09:27.797 [info] "will play track /home/pi/git/lullabeam/dev_music/wake/music/good/Anon._ Alla cazza.mp3"
+15:09:27.868 [info] ["mpv started", '749\n']
+15:09:34.299 [info] "InputWatcher handle_info :next_folder"
+15:09:34.332 [info] ["debouncer got cmd that could be legit", :next_folder]
+15:09:35.333 [info] ["debouncer actually_sending along cmd", :next_folder]
+15:09:35.344 [info] ["DJ executing cmd", :next_folder]
+15:09:35.408 [info] ["mpv not stopped yet", '749\n']
+15:09:35.454 [info] "mpv stopped"
+15:09:35.455 [info] "keep playing! elapsed 7 limit 3600"
+15:09:35.456 [info] "will play track /home/pi/git/lullabeam/dev_music/wake/music/good/Anon. & Fernandez_ Tres morillas m'enamoran.mp3"
+15:09:35.484 [info] ["mpv started", '772\n']
+                                                                                                                                                                                                                                                                                                                                                                                                                      15:10:01.265 [info] "playing startup sound!"
+15:10:01.265 [info] "Looking for an input device..."
+15:10:01.275 [info] "mpv stopped"
+15:10:01.531 [info] "Found input device Hengchangtong keyboard mouse!"
+15:10:06.103 [info] "playing startup sound!"
+15:10:06.103 [info] "Looking for an input device..."
+15:10:06.113 [info] "mpv stopped"
+15:10:06.349 [info] "Found input device Hengchangtong keyboard mouse!"
+15:10:09.296 [info] "InputWatcher handle_info :play_or_pause"
+15:10:09.308 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+15:10:10.310 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+15:10:10.321 [info] ["DJ executing cmd", :play_or_pause]
+15:10:10.321 [info] "play or pause - was stopped"
+15:10:10.343 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Blackbird.mp3"
+15:10:10.395 [info] ["mpv started", '707\n']
+15:10:17.028 [info] "InputWatcher handle_info {:set_mode, :wake}"
+15:10:17.041 [info] ["debouncer got cmd that could be legit", {:set_mode, :wake}]
+15:10:18.042 [info] ["debouncer actually_sending along cmd", {:set_mode, :wake}]
+15:10:18.054 [info] ["DJ executing cmd", {:set_mode, :wake}]
+15:10:18.055 [info] "setting mode wake"
+15:10:18.140 [info] ["mpv not stopped yet", '707\n']
+15:10:18.222 [info] ["mpv not stopped yet", ["  707 ?        00:00:01 mpv"]]
+15:10:18.269 [info] "mpv stopped"
+15:10:18.270 [info] "keep playing! elapsed 0 limit 3600"
+15:10:18.270 [info] "will play track /home/pi/git/lullabeam/dev_music/wake/music/good/Anon._ Alla cazza.mp3"
+15:10:18.301 [info] ["mpv started", '731\n']
+15:10:21.288 [info] "InputWatcher handle_info :next_folder"
+15:10:21.300 [info] ["debouncer got cmd that could be legit", :next_folder]
+15:10:22.302 [info] ["debouncer actually_sending along cmd", :next_folder]
+15:10:22.314 [info] ["DJ executing cmd", :next_folder]
+15:10:22.389 [info] ["mpv not stopped yet", '731\n']
+15:10:22.435 [info] "mpv stopped"
+15:10:22.436 [info] "keep playing! elapsed 4 limit 3600"
+15:10:22.436 [info] "will play track /home/pi/git/lullabeam/dev_music/wake/music/good/Anon. & Fernandez_ Tres morillas m'enamoran.mp3"
+15:10:22.466 [info] ["mpv started", '751\n']
+15:13:39.871 [info] "playing startup sound!"
+15:13:39.871 [info] "Looking for an input device..."
+15:13:39.896 [info] ["mpv not stopped yet", '751\n']
+15:13:39.897 [info] "keep playing! elapsed 129 limit 3600"
+15:13:39.897 [info] "will play track /home/pi/git/lullabeam/dev_music/wake/music/good/Anon._ Alla cazza.mp3"
+15:13:39.934 [info] ["mpv started", '842\n']
+15:13:39.972 [info] ["mpv not stopped yet", ["  842 ?        00:00:00 mpv"]]
+15:13:40.027 [info] ["mpv not stopped yet", ["  842 ?        00:00:00 mpv"]]
+15:13:40.081 [info] ["mpv not stopped yet", ["  842 ?        00:00:00 mpv"]]
+15:13:40.119 [info] "Found input device Hengchangtong keyboard mouse!"
+15:13:40.145 [info] ["mpv not stopped yet", ["  842 ?        00:00:00 mpv"]]
+15:13:40.203 [info] ["mpv not stopped yet", ["  842 ?        00:00:00 mpv"]]
+15:13:40.259 [info] ["mpv not stopped yet", ["  842 ?        00:00:00 mpv"]]
+15:13:40.313 [info] ["mpv not stopped yet", ["  842 ?        00:00:00 mpv"]]
+15:13:40.367 [info] ["mpv not stopped yet", ["  842 ?        00:00:00 mpv"]]
+15:13:40.419 [info] ["mpv not stopped yet", ["  842 ?        00:00:00 mpv"]]
+15:13:40.470 [info] ["mpv not stopped yet", ["  842 ?        00:00:00 mpv"]]
+15:13:40.521 [info] ["mpv not stopped yet", ["  842 ?        00:00:00 mpv"]]
+15:13:40.574 [info] ["mpv not stopped yet", ["  842 ?        00:00:00 mpv"]]
+15:13:40.626 [info] ["mpv not stopped yet", ["  842 ?        00:00:00 mpv"]]
+15:13:40.679 [info] ["mpv not stopped yet", ["  842 ?        00:00:00 mpv"]]
+15:13:40.730 [info] ["mpv not stopped yet", ["  842 ?        00:00:00 mpv"]]
+15:13:40.783 [info] ["mpv not stopped yet", ["  842 ?        00:00:00 mpv"]]
+15:13:40.836 [info] ["mpv not stopped yet", ["  842 ?        00:00:00 mpv"]]
+15:13:40.889 [info] ["mpv not stopped yet", ["  842 ?        00:00:00 mpv"]]
+15:13:40.941 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:40.994 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:41.046 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:41.097 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:41.148 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:41.195 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:41.244 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:41.298 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:41.350 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:41.399 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:41.448 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:41.498 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:41.546 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:41.597 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:41.645 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:41.693 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:41.741 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:41.789 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:41.837 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:41.885 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:41.933 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:41.981 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:42.029 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:42.098 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:42.177 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:42.253 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:42.330 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:42.408 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:42.474 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:42.522 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:42.571 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:42.620 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:42.668 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:42.717 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:42.764 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:42.812 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:42.860 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:42.909 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:42.956 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:43.004 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:43.053 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:43.100 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:43.149 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:43.226 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:43.289 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:43.336 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:43.384 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:43.432 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:43.480 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:43.528 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:43.576 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:43.624 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:43.672 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:43.721 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:43.769 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:43.817 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:43.865 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:43.913 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:43.961 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:44.038 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:44.099 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:44.147 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:44.195 [info] ["mpv not stopped yet", ["  842 ?        00:00:01 mpv"]]
+15:13:47.980 [info] "InputWatcher handle_info :next_folder"
+15:13:47.993 [info] ["debouncer got cmd that could be legit", :next_folder]
+15:13:48.988 [info] ["debouncer actually_sending along cmd", :next_folder]
+15:13:49.000 [info] ["DJ executing cmd", :next_folder]
+15:13:49.076 [info] ["mpv not stopped yet", '842\n']
+15:13:49.124 [info] "mpv stopped"
+15:13:49.125 [info] "keep playing! elapsed 138 limit 3600"
+15:13:49.125 [info] "will play track /home/pi/git/lullabeam/dev_music/wake/music/good/Anon. & Fernandez_ Tres morillas m'enamoran.mp3"
+15:13:49.153 [info] ["mpv started", '1211\n']
+15:13:50.395 [info] "InputWatcher handle_info :next_folder"
+15:13:50.401 [info] ["debouncer got cmd that could be legit", :next_folder]
+15:13:51.396 [info] ["debouncer actually_sending along cmd", :next_folder]
+15:13:51.408 [info] ["DJ executing cmd", :next_folder]
+15:13:51.488 [info] ["mpv not stopped yet", '1211\n']
+15:13:51.548 [info] "mpv stopped"
+15:13:51.548 [info] "keep playing! elapsed 141 limit 3600"
+15:13:51.549 [info] "will play track /home/pi/git/lullabeam/dev_music/wake/music/good/Anon. & Fernandez_ Tres morillas m'enamoran.mp3"
+15:13:51.577 [info] ["mpv started", '1231\n']
+15:13:52.811 [info] "InputWatcher handle_info :next_track"
+15:13:52.817 [info] ["debouncer got cmd that could be legit", :next_track]
+15:13:53.817 [info] ["debouncer actually_sending along cmd", :next_track]
+15:13:53.829 [info] ["DJ executing cmd", :next_track]
+15:13:53.922 [info] ["mpv not stopped yet", '1231\n']
+15:13:53.985 [info] "mpv stopped"
+15:13:53.985 [info] "keep playing! elapsed 143 limit 3600"
+15:13:53.986 [info] "will play track /home/pi/git/lullabeam/dev_music/wake/music/good/Anon._ Alla cazza.mp3"
+15:13:54.013 [info] ["mpv started", '1251\n']
+15:13:55.019 [info] "InputWatcher handle_info :next_track"
+15:13:55.025 [info] ["debouncer got cmd that could be legit", :next_track]
+15:13:56.017 [info] ["debouncer actually_sending along cmd", :next_track]
+15:13:56.032 [info] ["DJ executing cmd", :next_track]
+15:13:56.072 [info] ["mpv not stopped yet", '1251\n']
+15:13:56.140 [info] "mpv stopped"
+15:13:56.141 [info] "keep playing! elapsed 145 limit 3600"
+15:13:56.141 [info] "will play track /home/pi/git/lullabeam/dev_music/wake/music/good/Anon._ La bella Franceschina.mp3"
+15:13:56.194 [info] ["mpv started", '1271\n']
+15:15:08.793 [info] "playing startup sound!"
+15:15:08.793 [info] "Looking for an input device..."
+15:15:08.802 [info] "mpv stopped"
+15:15:09.036 [info] "Found input device Hengchangtong keyboard mouse!"
+15:15:13.626 [info] "Looking for an input device..."
+15:15:13.626 [info] "playing startup sound!"
+15:15:13.639 [info] "mpv stopped"
+15:15:13.875 [info] "Found input device Hengchangtong keyboard mouse!"
+15:15:25.667 [info] "playing startup sound!"
+15:15:25.667 [info] "Looking for an input device..."
+15:15:25.676 [info] "mpv stopped"
+15:15:25.885 [info] "Found input device Hengchangtong keyboard mouse!"
+15:15:41.985 [info] "playing startup sound!"
+15:15:41.985 [info] "Looking for an input device..."
+15:15:41.995 [info] "mpv stopped"
+15:15:42.211 [info] "Found input device Hengchangtong keyboard mouse!"
+15:15:46.929 [info] "playing startup sound!"
+15:15:46.929 [info] "Looking for an input device..."
+15:15:46.929 [info] "mpv stopped"
+15:15:47.166 [info] "Found input device Hengchangtong keyboard mouse!"
+15:16:04.466 [info] "playing startup sound!"
+15:16:04.466 [info] "Looking for an input device..."
+15:16:04.476 [info] "mpv stopped"
+15:16:04.675 [info] "Found input device Hengchangtong keyboard mouse!"
+15:18:46.655 [info] "mpv stopped"
+15:18:46.649 [info] "Looking for an input device..."
+15:18:46.649 [info] "playing startup sound!"
+15:18:46.878 [info] "Found input device Hengchangtong keyboard mouse!"
+15:19:20.258 [info] "playing startup sound!"
+15:19:20.258 [info] "Looking for an input device..."
+15:19:20.267 [info] "mpv stopped"
+15:19:20.524 [info] "Found input device Hengchangtong keyboard mouse!"
+15:28:27.385 [info] "playing startup sound!"
+15:28:27.385 [info] "Looking for an input device..."
+15:28:27.385 [info] "mpv stopped"
+15:28:27.622 [info] "Found input device Hengchangtong keyboard mouse!"
+15:28:31.496 [info] "InputWatcher handle_info :play_or_pause"
+15:28:31.498 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+15:28:32.500 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+15:28:32.502 [info] ["DJ executing cmd", :play_or_pause]
+15:28:32.502 [info] "play or pause - was stopped"
+15:28:32.515 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Blackbird.mp3"
+15:28:32.563 [info] ["mpv started", '761\n']
+15:31:22.102 [info] "playing startup sound!"
+15:31:22.102 [info] "Looking for an input device..."
+15:31:22.114 [info] "mpv stopped"
+15:31:22.347 [info] "Found input device Hengchangtong keyboard mouse!"
+15:31:46.699 [info] "playing startup sound!"
+15:31:46.699 [info] "Looking for an input device..."
+15:31:46.706 [info] "mpv stopped"
+15:31:46.952 [info] "Found input device Hengchangtong keyboard mouse!"
+15:31:58.617 [info] "InputWatcher handle_info :play_or_pause"
+15:31:58.618 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+15:31:59.620 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+15:31:59.621 [info] ["DJ executing cmd", :play_or_pause]
+15:31:59.621 [info] "play or pause - was stopped"
+15:31:59.631 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Blackbird.mp3"
+15:31:59.678 [info] ["mpv started", '734\n']
+15:39:47.141 [info] "playing startup sound!"
+15:39:47.141 [info] "Looking for an input device..."
+15:39:47.156 [info] "mpv stopped"
+15:39:47.377 [info] "Found input device Hengchangtong keyboard mouse!"
+15:40:13.328 [info] "playing startup sound!"
+15:40:13.328 [info] "Looking for an input device..."
+15:40:13.337 [info] "mpv stopped"
+15:40:13.579 [info] "Found input device Hengchangtong keyboard mouse!"
+15:41:02.028 [info] "playing startup sound!"
+15:41:02.028 [info] "Looking for an input device..."
+15:41:02.053 [info] "mpv stopped"
+15:41:02.241 [info] "Found input device Hengchangtong keyboard mouse!"
+19:39:20.640 [info] "Looking for an input device..."
+19:39:20.640 [info] "playing startup sound!"
+19:39:20.648 [info] "mpv stopped"
+19:39:20.860 [info] "Found input device Hengchangtong keyboard mouse!"
+19:39:23.208 [info] "InputWatcher handle_info :play_or_pause"
+19:39:23.210 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+19:39:24.211 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+19:39:24.212 [info] ["DJ executing cmd", :play_or_pause]
+19:39:24.213 [info] "play or pause - was stopped"
+19:39:24.225 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Blackbird.mp3"
+19:39:24.270 [info] ["mpv started", '5640\n']
+19:39:30.072 [info] "InputWatcher handle_info :play_or_pause"
+19:39:30.074 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+19:39:31.075 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+19:39:31.076 [info] ["DJ executing cmd", :play_or_pause]
+19:39:31.077 [info] "play or pause - was playing"
+19:39:31.105 [info] "connected to mvp"
+19:40:04.086 [info] "playing startup sound!"
+19:40:04.086 [info] "Looking for an input device..."
+19:40:04.098 [info] "mpv stopped"
+19:40:04.394 [info] "Found input device Hengchangtong keyboard mouse!"
+19:40:31.685 [info] "playing startup sound!"
+19:40:31.685 [info] "Looking for an input device..."
+19:40:31.697 [info] "mpv stopped"
+19:40:31.900 [info] "Found input device Hengchangtong keyboard mouse!"
+19:41:20.863 [info] "playing startup sound!"
+19:41:20.863 [info] "Looking for an input device..."
+19:41:20.876 [info] "mpv stopped"
+19:41:21.058 [info] "Found input device Hengchangtong keyboard mouse!"
+19:41:26.793 [info] "InputWatcher handle_info :play_or_pause"
+19:41:26.795 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+19:41:27.796 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+19:41:27.797 [info] ["DJ executing cmd", :play_or_pause]
+19:41:27.798 [info] "play or pause - was stopped"
+19:41:27.810 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Blackbird.mp3"
+19:41:27.857 [info] ["mpv started", '733\n']
+19:41:33.817 [info] "InputWatcher handle_info :play_or_pause"
+19:41:33.819 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+19:41:34.820 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+19:41:34.821 [info] ["DJ executing cmd", :play_or_pause]
+19:41:34.822 [info] "play or pause - was playing"
+19:41:34.849 [info] "connected to mvp"
+19:41:55.781 [info] "playing startup sound!"
+19:41:55.781 [info] "Looking for an input device..."
+19:41:55.789 [info] "mpv stopped"
+19:41:56.049 [info] "Found input device Hengchangtong keyboard mouse!"
+19:43:15.489 [info] "playing startup sound!"
+19:43:15.489 [info] "Looking for an input device..."
+19:43:15.494 [info] "mpv stopped"
+19:43:15.738 [info] "Found input device Hengchangtong keyboard mouse!"
+19:43:24.254 [info] "Looking for an input device..."
+19:43:24.254 [info] "playing startup sound!"
+19:43:24.256 [info] "mpv stopped"
+19:43:24.537 [info] "Found input device Hengchangtong keyboard mouse!"
+19:43:30.331 [info] "playing startup sound!"
+19:43:30.331 [info] "Looking for an input device..."
+19:43:30.340 [info] "mpv stopped"
+19:43:30.527 [info] "Found input device Hengchangtong keyboard mouse!"
+19:43:49.684 [info] "playing startup sound!"
+19:43:49.684 [info] "Looking for an input device..."
+19:43:49.693 [info] "mpv stopped"
+19:43:49.897 [info] "Found input device Hengchangtong keyboard mouse!"
+19:51:21.939 [info] "playing startup sound!"
+19:51:21.939 [info] "Looking for an input device..."
+19:51:21.948 [info] "mpv stopped"
+19:51:22.167 [info] "Found input device Hengchangtong keyboard mouse!"
+19:58:12.200 [info] "playing startup sound!"
+19:58:12.200 [info] "Looking for an input device..."
+19:58:12.207 [info] "mpv stopped"
+19:58:12.437 [info] "Found input device Hengchangtong keyboard mouse!"
+20:37:06.894 [info] "playing startup sound!"
+20:37:06.894 [info] "Looking for an input device..."
+20:37:06.908 [info] "mpv stopped"
+20:37:07.088 [info] "Found input device Hengchangtong keyboard mouse!"
+21:58:42.638 [info] "playing startup sound!"
+21:58:42.638 [info] "Looking for an input device..."
+21:58:42.651 [info] "mpv stopped"
+21:58:42.847 [info] "Found input device Hengchangtong keyboard mouse!"
+22:16:15.655 [info] "playing startup sound!"
+22:16:15.655 [info] "Looking for an input device..."
+22:16:15.666 [info] "mpv stopped"
+22:16:15.942 [info] "Found input device Hengchangtong keyboard mouse!"
+22:21:51.037 [info] "playing startup sound!"
+22:21:51.037 [info] "Looking for an input device..."
+22:21:51.050 [info] "mpv stopped"
+22:21:51.276 [info] "Found input device Hengchangtong keyboard mouse!"
+22:23:01.109 [info] "playing startup sound!"
+22:23:01.109 [info] "Looking for an input device..."
+22:23:01.117 [info] "mpv stopped"
+22:23:01.532 [info] "Found input device Hengchangtong keyboard mouse!"
+22:23:03.003 [info] "InputWatcher handle_info :play_or_pause"
+22:23:03.014 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+22:23:04.015 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+22:23:04.026 [info] ["DJ executing cmd", :play_or_pause]
+22:23:04.027 [info] "play or pause - was stopped"
+22:23:04.049 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Blackbird.mp3"
+22:23:04.098 [info] ["mpv started", '748\n']
+22:23:14.164 [info] "InputWatcher handle_info :next_track"
+22:23:14.176 [info] ["debouncer got cmd that could be legit", :next_track]
+22:23:15.177 [info] ["debouncer actually_sending along cmd", :next_track]
+22:23:15.189 [info] ["DJ executing cmd", :next_track]
+22:23:15.274 [info] ["mpv not stopped yet", '748\n']
+22:23:15.343 [info] "mpv stopped"
+22:23:15.343 [info] "keep playing! elapsed 11 limit 2700"
+22:23:15.344 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Chi chilichi_.mp3"
+22:23:15.380 [info] ["mpv started", '768\n']
+22:23:17.556 [info] "InputWatcher handle_info :next_track"
+22:23:17.570 [info] ["debouncer got cmd that could be legit", :next_track]
+22:23:17.749 [info] "InputWatcher handle_info :next_track"
+22:23:17.909 [info] "InputWatcher handle_info :next_track"
+22:23:18.076 [info] "InputWatcher handle_info :next_track"
+22:23:18.252 [info] "InputWatcher handle_info :next_track"
+22:23:18.420 [info] "InputWatcher handle_info :next_track"
+22:23:18.580 [info] "InputWatcher handle_info :next_track"
+22:23:18.748 [info] "InputWatcher handle_info :next_track"
+22:23:18.924 [info] "InputWatcher handle_info :next_track"
+22:23:19.092 [info] "InputWatcher handle_info :next_track"
+22:23:19.268 [info] "InputWatcher handle_info :next_track"
+22:23:19.461 [info] "InputWatcher handle_info :next_track"
+22:23:19.628 [info] "InputWatcher handle_info :next_track"
+22:23:19.796 [info] "InputWatcher handle_info :next_track"
+22:23:19.980 [info] "InputWatcher handle_info :next_track"
+22:23:20.157 [info] "InputWatcher handle_info :next_track"
+22:23:20.364 [info] "InputWatcher handle_info :next_track"
+22:23:20.564 [info] "InputWatcher handle_info :next_track"
+22:23:20.732 [info] "InputWatcher handle_info :next_track"
+22:23:21.734 [info] ["can stop blocking", nil]
+22:23:37.429 [info] "InputWatcher handle_info :next_track"
+22:23:37.440 [info] ["debouncer got cmd that could be legit", :next_track]
+22:23:38.442 [info] ["debouncer actually_sending along cmd", :next_track]
+22:23:38.454 [info] ["DJ executing cmd", :next_track]
+22:23:38.533 [info] ["mpv not stopped yet", '768\n']
+22:23:38.599 [info] "mpv stopped"
+22:23:38.599 [info] "keep playing! elapsed 34 limit 2700"
+22:23:38.599 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Humpty Dumpty.mp3"
+22:23:38.628 [info] ["mpv started", '809\n']
+22:27:07.879 [info] "keep playing! elapsed 244 limit 2700"
+22:27:07.881 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/L`-bas dans le Limousin.mp3"
+22:27:07.930 [info] ["mpv started", '1019\n']
+22:28:54.752 [info] "keep playing! elapsed 350 limit 2700"
+22:28:54.752 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/My Spirit Sang All Day.mp3"
+22:28:54.778 [info] ["mpv started", '1039\n']
+22:30:17.024 [info] "keep playing! elapsed 433 limit 2700"
+22:30:17.025 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Now is the Month of Maying.mp3"
+22:30:17.074 [info] ["mpv started", '1060\n']
+22:32:36.662 [info] "keep playing! elapsed 572 limit 2700"
+22:32:36.663 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Resonet in laudibus.mp3"
+22:32:36.701 [info] ["mpv started", '1083\n']
+22:35:45.468 [info] "keep playing! elapsed 761 limit 2700"
+22:35:45.468 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Short People.mp3"
+22:35:45.517 [info] ["mpv started", '1105\n']
+22:38:25.597 [info] "keep playing! elapsed 921 limit 2700"
+22:38:25.598 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/The Oak and the Ash.mp3"
+22:38:25.649 [info] ["mpv started", '1124\n']
+22:39:55.071 [info] "InputWatcher handle_info :play_or_pause"
+22:39:55.073 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+22:39:56.075 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+22:39:56.077 [info] ["DJ executing cmd", :play_or_pause]
+22:39:56.078 [info] "play or pause - was playing"
+22:39:56.108 [info] "connected to mvp"
+22:41:12.702 [info] "playing startup sound!"
+22:41:12.702 [info] "Looking for an input device..."
+22:41:12.710 [info] "mpv stopped"
+22:41:12.967 [info] "Found input device Hengchangtong keyboard mouse!"
+22:42:50.659 [info] "playing startup sound!"
+22:42:50.659 [info] "Looking for an input device..."
+22:42:50.673 [info] "mpv stopped"
+22:42:50.913 [info] "Found input device Hengchangtong keyboard mouse!"
+22:43:32.026 [info] "playing startup sound!"
+22:43:32.026 [info] "Looking for an input device..."
+22:43:32.033 [info] "mpv stopped"
+22:43:32.266 [info] "Found input device Hengchangtong keyboard mouse!"
+22:43:33.280 [info] "InputWatcher handle_info :play_or_pause"
+22:43:33.282 [info] ["debouncer got cmd that could be legit", :play_or_pause]
+22:43:34.283 [info] ["debouncer actually_sending along cmd", :play_or_pause]
+22:43:34.284 [info] ["DJ executing cmd", :play_or_pause]
+22:43:34.286 [info] "play or pause - was stopped"
+22:43:34.298 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Blackbird.mp3"
+22:43:34.344 [info] ["mpv started", '738\n']
+22:46:12.815 [info] "keep playing! elapsed 158 limit 2700"
+22:46:12.816 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Chi chilichi_.mp3"
+22:46:12.864 [info] ["mpv started", '750\n']
+22:48:52.923 [info] "keep playing! elapsed 318 limit 2700"
+22:48:52.926 [info] "will play track /home/pi/git/lullabeam/dev_music/sleep/peaceful_sounds/Humpty Dumpty.mp3"
+22:48:52.972 [info] ["mpv started", '764\n']

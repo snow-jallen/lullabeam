@@ -32,6 +32,7 @@ defmodule Lullabeam.Debouncer do
   end
 
   def handle_call({:cmd, new_cmd}, _from, %{status: :listening} = state) do
+    IO.inspect(new_cmd, label: "handle_call (while listening)")
     log(["debouncer got cmd that could be legit", new_cmd])
     {:reply, :pending, set_pending(state, new_cmd), state.debounce_ms}
   end
@@ -62,7 +63,9 @@ defmodule Lullabeam.Debouncer do
   end
 
   defp tell_dj(cmd) do
-    DJ.execute_cmd(cmd)
+    cmd
+    |> IO.inspect(label: "telling dj")
+    |> DJ.execute_cmd()
   end
 
   defp set_pending(state, cmd) do

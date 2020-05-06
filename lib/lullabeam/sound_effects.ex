@@ -6,16 +6,19 @@ defmodule Lullabeam.SoundEffects do
         [
           :stderr_to_stdout,
           args: [
+            "-o",
+            "both",
             Path.join([:code.priv_dir(:lullabeam), file_for(effect_name)])
           ]
         ]
       )
+    port
   end
 
   defp file_for(:startup), do: "startup.wav"
   defp file_for(:error), do: "error.wav"
 
   # `brew install sox`
-  defp effects_player(:host), do: "/usr/local/homebrew/bin/play"
+  defp effects_player(:host), do: "/usr/bin/omxplayer"
   defp effects_player(_target), do: "/usr/bin/aplay"
 end

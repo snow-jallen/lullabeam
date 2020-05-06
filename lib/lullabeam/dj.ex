@@ -360,6 +360,6 @@ defmodule Lullabeam.DJ do
     Map.put(state, :playback, %{state: :playing, started_playing: now()})
   end
 
-  defp mpv_path(:host), do: "/usr/local/homebrew/bin/mpv"
+  defp mpv_path(:host), do: "/usr/bin/mpv"
   defp mpv_path(_target), do: "/usr/bin/mpv"
 end

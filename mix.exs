@@ -7,7 +7,7 @@ defmodule Lullabeam.MixProject do
       app: @app,
       version: "0.1.0",
       elixir: "~> 1.6",
-      archives: [nerves_bootstrap: "~> 1.6"],
+      #archives: [nerves_bootstrap: "~> 1.6"],
       start_permanent: Mix.env() == :prod,
       build_embedded: Mix.target() != :host,
       aliases: [loadconfig: [&bootstrap/1]],
@@ -20,7 +20,7 @@ defmodule Lullabeam.MixProject do
   # Starting nerves_bootstrap adds the required aliases to Mix.Project.config()
   # Aliases are only added if MIX_TARGET is set.
   def bootstrap(args) do
-    # System.put_env("MIX_TARGET", "lullabeam_rpi3")
+    System.put_env("MIX_TARGET", "host")
     Application.start(:nerves_bootstrap)
     Mix.Task.run("loadconfig", args)
   end
@@ -47,25 +47,28 @@ defmodule Lullabeam.MixProject do
   defp deps do
     [
       # Typical Nerves stuff
-      {:nerves, "~> 1.5.3", runtime: false},
-      {:shoehorn, "~> 0.6"},
-      {:ring_logger, "~> 0.6"},
+      # {:nerves, "~> 1.5.3", runtime: false},
+       {:shoehorn, "~> 0.6"},
+       {:ring_logger, "~> 0.6"},
       # {:toolshed, "~> 0.2"},
-      {:nerves_runtime, "~> 0.6", targets: :lullabeam_rpi3},
+      # {:nerves_runtime, "~> 0.6", targets: :lullabeam_rpi3},
 
       # Control CPU speed & power usage
-      {:power_control, "~> 0.1.0", targets: :lullabeam_rpi3},
+      # {:power_control, "~> 0.1.0", targets: :lullabeam_rpi3},
 
       # Watch for USB inputs
-      {:input_event, "~> 0.2.1", targets: :lullabeam_rpi3},
+      {:input_event, "~> 0.2.1"},#, targets: :lullabeam_rpi3},
+
+      # log to file
+      {:logger_file_backend, "~> 0.0.11"},
 
       # compiled with mpv
-      {:lullabeam_rpi3,
-       git: "git@github.com:nathanl/lullabeam_rpi3.git",
-       tag: "v1.10.0",
-       runtime: false,
-       nerves: [compile: false],
-       targets: :lullabeam_rpi3}
+      # {:lullabeam_rpi3,
+      #  git: "git@github.com:nathanl/lullabeam_rpi3.git",
+      #  tag: "v1.10.0",
+      #  runtime: false,
+      #  nerves: [compile: false],
+      #  targets: :lullabeam_rpi3}
 
       # compiled with mpv
       # {:lullabeam_rpi3, path: "/Users/nathanl/code/experiments/lullabeam_rpi3", runtime: false, nerves: [compile: true], targets: :lullabeam_rpi3}

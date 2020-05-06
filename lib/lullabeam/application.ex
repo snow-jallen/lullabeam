@@ -8,6 +8,7 @@ defmodule Lullabeam.Application do
   use Application
 
   def start(_type, _args) do
+    IO.puts "starting lullabeam application"
     # See https://hexdocs.pm/elixir/Supervisor.html
     # for other strategies and supported options
     opts = [
@@ -21,12 +22,14 @@ defmodule Lullabeam.Application do
   end
 
   def children(:host = env) do
+    IO.puts "calling children(:host = env)"
     [
       {Lullabeam.RuntimeSupervisor, env}
     ]
   end
 
   def children(env) do
+    IO.puts("calling children(env)")
     [
       Lullabeam.RPiSetup,
       {Lullabeam.RuntimeSupervisor, env}

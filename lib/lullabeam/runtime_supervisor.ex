@@ -14,20 +14,21 @@ defmodule Lullabeam.RuntimeSupervisor do
       {Lullabeam.LibraryMonitor, env},
       {Lullabeam.DJ, env},
       {Lullabeam.Debouncer, env},
-      {Lullabeam.StartupSounder, env}
+      {Lullabeam.StartupSounder, env},
+      {Lullabeam.InputWatcher, [device_adapter: Lullabeam.InputDevices.WirelessKeypad]}
     ]
   end
 
   def children(:lullabeam_rpi3 = env) do
     [
       {Lullabeam.LibraryMonitor, env},
-      {Lullabeam.DJ, env},
-      {Lullabeam.Debouncer, env},
-      {
-        Lullabeam.InputWatcher,
-        [device_adapter: Lullabeam.InputDevices.JellyCombKeypad]
-      },
-      {Lullabeam.StartupSounder, env}
+      #{Lullabeam.DJ, env},
+      #{Lullabeam.Debouncer, env},
+      #{
+      #  Lullabeam.InputWatcher,
+      #  [device_adapter: Lullabeam.InputDevices.JellyCombKeypad]
+      #},
+      #{Lullabeam.StartupSounder, env}
     ]
   end
 end

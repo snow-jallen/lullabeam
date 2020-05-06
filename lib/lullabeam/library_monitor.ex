@@ -31,16 +31,19 @@ defmodule Lullabeam.LibraryMonitor do
   end
 
   def library do
+    IO.puts "library"
     GenServer.call(__MODULE__, :library)
   end
 
   @impl true
   def handle_call(:library, _from, state) do
+    IO.puts "handle_call :library"
     {:reply, {:ok, state.library}, state}
   end
 
   @impl true
   def handle_info(:check_library, %{library: library} = state) do
+    IO.puts "handle_info :check_library"
     {:ok, track_file} = random_track_from(library)
 
     if File.exists?(track_file) do
@@ -53,10 +56,12 @@ defmodule Lullabeam.LibraryMonitor do
   end
 
   defp schedule_library_check() do
+    IO.puts "schedule_library_check"
     Process.send_after(self(), :check_library, @check_interval)
   end
 
   defp random_track_from(library) do
+    IO.puts "random_track_from"
     Library.get_track(
       library,
       :rand.uniform(100),

@@ -32,5 +32,6 @@ defmodule Lullabeam.StartupSounder do
 
   def play_startup_sound(env) do
     Lullabeam.SoundEffects.play(env, :startup)
+    IO.puts "played startup sound!"
   end
 end

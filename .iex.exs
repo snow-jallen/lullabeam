@@ -1,2 +1,2 @@
-RingLogger.attach()
+#RingLogger.attach()
 alias Lullabeam, as: Lb

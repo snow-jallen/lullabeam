@@ -20,3 +20,5 @@ dev_music
 erl_crash.dump
 
 _nerves-tmp
+
+.elixir_ls/
